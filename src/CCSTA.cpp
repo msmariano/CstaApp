@@ -6,6 +6,7 @@
 // Description : Codificação e Decodificação Mensagens CSTA
 //               11-12-2013 - Criação
 //               18-02-2013 - Colocado shutdown para fechamento socket
+//               23-01-2016 - Acrescentado projeto para o GITHUB
 //============================================================================
 
 
