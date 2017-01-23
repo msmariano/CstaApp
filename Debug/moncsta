@@ -1,0 +1,17 @@
+#!/bin/sh 
+# Author: Marcelo Mariano 
+# 
+i=0
+while [ 1 ]
+do
+    
+    if [ `pgrep CstaApp` ]
+    then
+     i=$i
+     #echo "Rodando"
+    else
+    	#echo "Parado...Reiniciando"
+    	/etc/init.d/cstaserve start
+    fi  
+    sleep 5   
+done

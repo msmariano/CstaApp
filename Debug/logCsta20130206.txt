@@ -1,0 +1,28 @@
+20130206 152934 ==================================================================
+20130206 152934                            CSTA APP                               
+20130206 152934 ==================================================================
+20130206 152934 Servidor de mensagens iniciado com sucesso!
+20130206 152934 !!!Connect Mysql Sucess!!!
+20130206 152934 Encontrado(s) 3 databases
+20130206 152934        -information_schema
+20130206 152934        -CSTA
+20130206 152934        -mysql
+20130206 152934 !!!Incializando threads!!!
+20130206 152934 !!!Rodando CstaMainLoop!!!
+20130206 152934 Iniciando comunicacao por Socket
+20130206 152934 InitializeSocket 192.168.0.1:7001
+20130206 152934 IP Resolvido: 192.168.0.1
+20130206 153849 ==================================================================
+20130206 153849                            CSTA APP                               
+20130206 153849 ==================================================================
+20130206 153849 Servidor de mensagens iniciado com sucesso!
+20130206 153849 !!!Connect Mysql Sucess!!!
+20130206 153849 Encontrado(s) 3 databases
+20130206 153849        -information_schema
+20130206 153849        -CSTA
+20130206 153849        -mysql
+20130206 153849 !!!Incializando threads!!!
+20130206 153849 Iniciando comunicacao por Socket
+20130206 153849 InitializeSocket 192.168.0.1:7001
+20130206 153849 IP Resolvido: 192.168.0.1
+20130206 153849 !!!Rodando CstaMainLoop!!!

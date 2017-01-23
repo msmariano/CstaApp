@@ -1,0 +1,28 @@
+20130219 132431 ==================================================================
+20130219 132431                            CSTA APP(1.0.0.1)                               
+20130219 132431 ==================================================================
+20130219 132431 Servidor de mensagens iniciado com sucesso!
+20130219 132431 !!!Connect Mysql Sucess!!!
+20130219 132431 Encontrado(s) 4 databases
+20130219 132431        -information_schema
+20130219 132431        -CSTA
+20130219 132431        -asterisk
+20130219 132431        -mysql
+20130219 132431 !!!Incializando threads!!!
+20130219 132431 !!!Rodando CstaMainLoop!!!
+20130219 132431 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130219 132431 Frequencia:10
+20130219 154905 ==================================================================
+20130219 154905                            CSTA APP(1.0.0.1)                               
+20130219 154905 ==================================================================
+20130219 154905 Servidor de mensagens iniciado com sucesso!
+20130219 154905 !!!Connect Mysql Sucess!!!
+20130219 154905 Encontrado(s) 4 databases
+20130219 154905        -information_schema
+20130219 154905        -CSTA
+20130219 154905        -asterisk
+20130219 154905        -mysql
+20130219 154905 !!!Incializando threads!!!
+20130219 154905 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130219 154905 Frequencia:10
+20130219 154905 !!!Rodando CstaMainLoop!!!

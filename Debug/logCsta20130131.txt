@@ -1,0 +1,68 @@
+20130131 181445 ==================================================================
+20130131 181445                            CSTA APP                               
+20130131 181445 ==================================================================
+20130131 181445 Servidor de mensagens iniciado com sucesso!
+20130131 181445 !!!Connect Mysql Sucess!!!
+20130131 181445 Encontrado(s) 6 databases
+20130131 181445        -information_schema
+20130131 181445        -CSTA
+20130131 181445        -mysql
+20130131 181445        -performance_schema
+20130131 181445        -phpmyadmin
+20130131 181445        -test
+20130131 181445 !!!Incializando threads!!!
+20130131 181445 !!!Rodando CstaMainLoop!!!
+20130131 181445 Iniciando comunicacao por Socket
+20130131 181445 InitializeSocket 192.168.0.1:7001
+20130131 181445 IP Resolvido: 192.168.0.1
+20130131 181503 ==================================================================
+20130131 181503                            CSTA APP                               
+20130131 181503 ==================================================================
+20130131 181503 Servidor de mensagens iniciado com sucesso!
+20130131 181503 !!!Connect Mysql Sucess!!!
+20130131 181503 Encontrado(s) 6 databases
+20130131 181503        -information_schema
+20130131 181503        -CSTA
+20130131 181503        -mysql
+20130131 181503        -performance_schema
+20130131 181503        -phpmyadmin
+20130131 181503        -test
+20130131 181503 !!!Incializando threads!!!
+20130131 181503 Iniciando comunicacao por Socket
+20130131 181503 InitializeSocket 192.168.0.1:7001
+20130131 181503 IP Resolvido: 192.168.0.1
+20130131 181503 !!!Rodando CstaMainLoop!!!
+20130131 181540 ==================================================================
+20130131 181540                            CSTA APP                               
+20130131 181540 ==================================================================
+20130131 181540 Servidor de mensagens iniciado com sucesso!
+20130131 181540 !!!Connect Mysql Sucess!!!
+20130131 181540 Encontrado(s) 6 databases
+20130131 181540        -information_schema
+20130131 181540        -CSTA
+20130131 181540        -mysql
+20130131 181540        -performance_schema
+20130131 181540        -phpmyadmin
+20130131 181540        -test
+20130131 181540 !!!Incializando threads!!!
+20130131 181540 !!!Rodando CstaMainLoop!!!
+20130131 181540 Iniciando comunicacao por Socket
+20130131 181540 InitializeSocket 192.168.0.1:7001
+20130131 181540 IP Resolvido: 192.168.0.1
+20130131 200814 ==================================================================
+20130131 200814                            CSTA APP                               
+20130131 200814 ==================================================================
+20130131 200814 Servidor de mensagens iniciado com sucesso!
+20130131 200814 !!!Connect Mysql Sucess!!!
+20130131 200814 Encontrado(s) 6 databases
+20130131 200814        -information_schema
+20130131 200814        -CSTA
+20130131 200814        -mysql
+20130131 200814        -performance_schema
+20130131 200814        -phpmyadmin
+20130131 200814        -test
+20130131 200814 !!!Incializando threads!!!
+20130131 200814 !!!Rodando CstaMainLoop!!!
+20130131 200814 Iniciando comunicacao por Socket
+20130131 200814 InitializeSocket 192.168.0.1:7001
+20130131 200814 IP Resolvido: 192.168.0.1

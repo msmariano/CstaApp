@@ -1,0 +1,27 @@
+#!/bin/sh 
+# /etc/init.d/cstaserve 
+# Author: Marcelo Mariano 
+# 
+start() { 
+nohup /home/marcelo/workspace/CstaApp/Debug/moncsta > foo.out 2> foo.err < /dev/null &  
+} 
+stop() { 
+ kill -9 `pgrep moncsta` 2>/dev/null 
+} 
+case $1 in 
+ start) 
+   start 
+ ;; 
+ stop)
+   stop 
+ ;; 
+ restart) 
+   stop 
+   sleep 1 
+   start 
+ ;; 
+ *) 
+ echo "Usage: $0 start|stop|restart" 
+ exit 1 
+ ;; 
+ esac 

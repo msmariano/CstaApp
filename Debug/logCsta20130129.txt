@@ -1,0 +1,17 @@
+20130129 192157 ==================================================================
+20130129 192157                            CSTA APP                               
+20130129 192157 ==================================================================
+20130129 192157 Servidor de mensagens iniciado com sucesso!
+20130129 192157 !!!Connect Mysql Sucess!!!
+20130129 192157 Encontrado(s) 6 databases
+20130129 192157        -information_schema
+20130129 192157        -CSTA
+20130129 192157        -mysql
+20130129 192157        -performance_schema
+20130129 192157        -phpmyadmin
+20130129 192157        -test
+20130129 192157 !!!Incializando threads!!!
+20130129 192157 !!!Rodando CstaMainLoop!!!
+20130129 192157 Iniciando comunicacao por Socket
+20130129 192157 InitializeSocket 192.168.0.1:7001
+20130129 192157 IP Resolvido: 192.168.0.1

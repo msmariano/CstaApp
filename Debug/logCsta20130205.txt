@@ -1,0 +1,110 @@
+20130205 151033 ==================================================================
+20130205 151033                            CSTA APP                               
+20130205 151033 ==================================================================
+20130205 151033 Servidor de mensagens iniciado com sucesso!
+20130205 151033 !!!Connect Mysql Sucess!!!
+20130205 151033 Encontrado(s) 3 databases
+20130205 151033        -information_schema
+20130205 151033        -CSTA
+20130205 151033        -mysql
+20130205 151033 !!!Incializando threads!!!
+20130205 151033 !!!Rodando CstaMainLoop!!!
+20130205 151033 Iniciando comunicacao por Socket
+20130205 151033 InitializeSocket 192.168.0.1:7001
+20130205 151033 IP Resolvido: 192.168.0.1
+20130205 151211 ==================================================================
+20130205 151211                            CSTA APP                               
+20130205 151211 ==================================================================
+20130205 151211 Servidor de mensagens iniciado com sucesso!
+20130205 151211 !!!Connect Mysql Sucess!!!
+20130205 151211 Encontrado(s) 3 databases
+20130205 151211        -information_schema
+20130205 151211        -CSTA
+20130205 151211        -mysql
+20130205 151211 !!!Incializando threads!!!
+20130205 151211 Iniciando comunicacao por Socket
+20130205 151211 InitializeSocket 192.168.0.1:7001
+20130205 151211 IP Resolvido: 192.168.0.1
+20130205 151211 !!!Rodando CstaMainLoop!!!
+20130205 151407 ==================================================================
+20130205 151407                            CSTA APP                               
+20130205 151407 ==================================================================
+20130205 151407 Servidor de mensagens iniciado com sucesso!
+20130205 151407 !!!Connect Mysql Sucess!!!
+20130205 151407 Encontrado(s) 3 databases
+20130205 151407        -information_schema
+20130205 151407        -CSTA
+20130205 151407        -mysql
+20130205 151407 !!!Incializando threads!!!
+20130205 151407 Iniciando comunicacao por Socket
+20130205 151407 InitializeSocket 192.168.0.1:7001
+20130205 151407 IP Resolvido: 192.168.0.1
+20130205 151407 !!!Rodando CstaMainLoop!!!
+20130205 151601 ==================================================================
+20130205 151601                            CSTA APP                               
+20130205 151601 ==================================================================
+20130205 151601 Servidor de mensagens iniciado com sucesso!
+20130205 151601 !!!Connect Mysql Sucess!!!
+20130205 151601 Encontrado(s) 3 databases
+20130205 151601        -information_schema
+20130205 151601        -CSTA
+20130205 151601        -mysql
+20130205 151601 !!!Incializando threads!!!
+20130205 151601 Iniciando comunicacao por Socket
+20130205 151601 InitializeSocket 192.168.0.1:7001
+20130205 151601 IP Resolvido: 192.168.0.1
+20130205 151601 !!!Rodando CstaMainLoop!!!
+20130205 151708 ==================================================================
+20130205 151708                            CSTA APP                               
+20130205 151708 ==================================================================
+20130205 151708 Servidor de mensagens iniciado com sucesso!
+20130205 151708 !!!Connect Mysql Sucess!!!
+20130205 151708 Encontrado(s) 3 databases
+20130205 151708        -information_schema
+20130205 151708        -CSTA
+20130205 151708        -mysql
+20130205 151709 !!!Incializando threads!!!
+20130205 151709 !!!Rodando CstaMainLoop!!!
+20130205 151709 Iniciando comunicacao por Socket
+20130205 151709 InitializeSocket 192.168.0.1:7001
+20130205 151709 IP Resolvido: 192.168.0.1
+20130205 152942 ==================================================================
+20130205 152942                            CSTA APP                               
+20130205 152942 ==================================================================
+20130205 152942 Aguardando conectar ao Mysql...Can't connect to MySQL server on '127.0.0.1' (111)
+20130205 153152 ==================================================================
+20130205 153152                            CSTA APP                               
+20130205 153152 ==================================================================
+20130205 153152 Aguardando conectar ao Mysql...Host '10.2.8.21' is not allowed to connect to this MySQL server
+20130205 153210 ==================================================================
+20130205 153210                            CSTA APP                               
+20130205 153210 ==================================================================
+20130205 153210 Aguardando conectar ao Mysql...Host '10.2.8.21' is not allowed to connect to this MySQL server
+20130205 153446 ==================================================================
+20130205 153446                            CSTA APP                               
+20130205 153446 ==================================================================
+20130205 153446 Servidor de mensagens iniciado com sucesso!
+20130205 153446 !!!Connect Mysql Sucess!!!
+20130205 153446 Encontrado(s) 3 databases
+20130205 153446        -information_schema
+20130205 153446        -CSTA
+20130205 153446        -mysql
+20130205 153446 !!!Incializando threads!!!
+20130205 153446 !!!Rodando CstaMainLoop!!!
+20130205 153446 Iniciando comunicacao por Socket
+20130205 153446 InitializeSocket 192.168.0.1:7001
+20130205 153446 IP Resolvido: 192.168.0.1
+20130205 154205 ==================================================================
+20130205 154205                            CSTA APP                               
+20130205 154205 ==================================================================
+20130205 154205 Servidor de mensagens iniciado com sucesso!
+20130205 154205 !!!Connect Mysql Sucess!!!
+20130205 154205 Encontrado(s) 3 databases
+20130205 154205        -information_schema
+20130205 154205        -CSTA
+20130205 154205        -mysql
+20130205 154205 !!!Incializando threads!!!
+20130205 154205 Iniciando comunicacao por Socket
+20130205 154205 InitializeSocket 192.168.0.1:7001
+20130205 154205 IP Resolvido: 192.168.0.1
+20130205 154205 !!!Rodando CstaMainLoop!!!

@@ -1,0 +1,411 @@
+20130208 105635 ==================================================================
+20130208 105635                            CSTA APP                               
+20130208 105635 ==================================================================
+20130208 105635 Servidor de mensagens iniciado com sucesso!
+20130208 105635 !!!Connect Mysql Sucess!!!
+20130208 105635 Encontrado(s) 3 databases
+20130208 105635        -information_schema
+20130208 105635        -CSTA
+20130208 105635        -mysql
+20130208 105635        -
+20130208 105635 Erro criar tabela csta - MySQL server has gone away
+20130208 105635        -
+20130208 105635 Erro criar tabela device - MySQL server has gone away
+20130208 105635 !!!Incializando threads!!!
+20130208 105635 Iniciando comunicacao por Socket
+20130208 105635 InitializeSocket 192.168.0.1:7001
+20130208 105635 IP Resolvido: 192.168.0.1
+20130208 105635 !!!Rodando CstaMainLoop!!!
+20130208 105638 !!!connect error!!!
+20130208 105910 ==================================================================
+20130208 105910                            CSTA APP                               
+20130208 105910 ==================================================================
+20130208 105910 Servidor de mensagens iniciado com sucesso!
+20130208 105910 !!!Connect Mysql Sucess!!!
+20130208 105910 Encontrado(s) 3 databases
+20130208 105910        -information_schema
+20130208 105910        -CSTA
+20130208 105910        -mysql
+20130208 105910        -
+20130208 105910 Erro criar tabela csta - MySQL server has gone away
+20130208 105910        -
+20130208 105910 Erro criar tabela device - MySQL server has gone away
+20130208 105910 !!!Incializando threads!!!
+20130208 105910 Iniciando comunicacao por Socket
+20130208 105910 InitializeSocket 192.168.0.1:7001
+20130208 105910 IP Resolvido: 192.168.0.1
+20130208 105910 !!!Rodando CstaMainLoop!!!
+20130208 105913 !!!connect error!!!
+20130208 110145 ==================================================================
+20130208 110145                            CSTA APP                               
+20130208 110145 ==================================================================
+20130208 110145 Servidor de mensagens iniciado com sucesso!
+20130208 110145 !!!Connect Mysql Sucess!!!
+20130208 110145 Encontrado(s) 3 databases
+20130208 110145        -information_schema
+20130208 110145        -CSTA
+20130208 110145        -mysql
+20130208 110145        -
+20130208 110145 Erro criar tabela csta - MySQL server has gone away
+20130208 110145        -
+20130208 110145 Erro criar tabela device - MySQL server has gone away
+20130208 110145 !!!Incializando threads!!!
+20130208 110145 Iniciando comunicacao por Socket
+20130208 110145 InitializeSocket 192.168.0.1:7001
+20130208 110145 IP Resolvido: 192.168.0.1
+20130208 110145 !!!Rodando CstaMainLoop!!!
+20130208 110148 !!!connect error!!!
+20130208 110426 ==================================================================
+20130208 110426                            CSTA APP                               
+20130208 110426 ==================================================================
+20130208 110426 Servidor de mensagens iniciado com sucesso!
+20130208 110426 !!!Connect Mysql Sucess!!!
+20130208 110426 Encontrado(s) 3 databases
+20130208 110426        -information_schema
+20130208 110426        -CSTA
+20130208 110426        -mysql
+20130208 110426        -
+20130208 110426 Erro criar tabela csta - MySQL server has gone away
+20130208 110426        -
+20130208 110426 Erro criar tabela device - MySQL server has gone away
+20130208 110426 !!!Incializando threads!!!
+20130208 110426 Iniciando comunicacao por Socket
+20130208 110426 InitializeSocket 192.168.0.1:7001
+20130208 110426 IP Resolvido: 192.168.0.1
+20130208 110426 !!!Rodando CstaMainLoop!!!
+20130208 110429 !!!connect error!!!
+20130208 110458 ==================================================================
+20130208 110458                            CSTA APP                               
+20130208 110458 ==================================================================
+20130208 110458 Servidor de mensagens iniciado com sucesso!
+20130208 110458 !!!Connect Mysql Sucess!!!
+20130208 110458 Encontrado(s) 3 databases
+20130208 110458        -information_schema
+20130208 110458        -CSTA
+20130208 110458        -mysql
+20130208 110458        -
+20130208 110458 Erro criar tabela csta - MySQL server has gone away
+20130208 110458        -
+20130208 110458 Erro criar tabela device - MySQL server has gone away
+20130208 110458 !!!Incializando threads!!!
+20130208 110458 Iniciando comunicacao por Socket
+20130208 110458 InitializeSocket 192.168.0.1:7001
+20130208 110458 IP Resolvido: 192.168.0.1
+20130208 110458 !!!Rodando CstaMainLoop!!!
+20130208 110501 !!!connect error!!!
+20130208 110936 ==================================================================
+20130208 110936                            CSTA APP                               
+20130208 110936 ==================================================================
+20130208 110936 Servidor de mensagens iniciado com sucesso!
+20130208 110936 !!!Connect Mysql Sucess!!!
+20130208 110936 Encontrado(s) 3 databases
+20130208 110936        -information_schema
+20130208 110936        -CSTA
+20130208 110936        -mysql
+20130208 110936        -
+20130208 110936 Erro criar tabela csta - MySQL server has gone away
+20130208 110936        -
+20130208 110936 Erro criar tabela device - MySQL server has gone away
+20130208 110936 !!!Incializando threads!!!
+20130208 110936 Iniciando comunicacao por Socket
+20130208 110936 InitializeSocket 192.168.0.1:7001
+20130208 110936 IP Resolvido: 192.168.0.1
+20130208 110936 !!!Rodando CstaMainLoop!!!
+20130208 110939 !!!connect error!!!
+20130208 111849 ==================================================================
+20130208 111849                            CSTA APP                               
+20130208 111849 ==================================================================
+20130208 111849 Servidor de mensagens iniciado com sucesso!
+20130208 111849 !!!Connect Mysql Sucess!!!
+20130208 111849 Encontrado(s) 3 databases
+20130208 111849        -information_schema
+20130208 111849        -CSTA
+20130208 111849        -mysql
+20130208 111849        -
+20130208 111849 Erro criar tabela csta - MySQL server has gone away
+20130208 111849        -
+20130208 111849 Erro criar tabela device - MySQL server has gone away
+20130208 111849 !!!Incializando threads!!!
+20130208 111849 Iniciando comunicacao por Socket
+20130208 111849 InitializeSocket 192.168.0.1:7001
+20130208 111849 IP Resolvido: 192.168.0.1
+20130208 111849 !!!Rodando CstaMainLoop!!!
+20130208 111852 !!!connect error!!!
+20130208 112231 ==================================================================
+20130208 112231                            CSTA APP                               
+20130208 112231 ==================================================================
+20130208 112231 Servidor de mensagens iniciado com sucesso!
+20130208 112231 !!!Connect Mysql Sucess!!!
+20130208 112231 Encontrado(s) 3 databases
+20130208 112231        -information_schema
+20130208 112231        -CSTA
+20130208 112231        -mysql
+20130208 112231        -
+20130208 112231 Erro criar tabela csta - MySQL server has gone away
+20130208 112231        -
+20130208 112231 Erro criar tabela device - MySQL server has gone away
+20130208 112231 !!!Incializando threads!!!
+20130208 112231 !!!Rodando CstaMainLoop!!!
+20130208 112231 Iniciando comunicacao por Socket
+20130208 112231 InitializeSocket 192.168.0.1:7001
+20130208 112231 IP Resolvido: 192.168.0.1
+20130208 112234 !!!connect error!!!
+20130208 112704 ==================================================================
+20130208 112704                            CSTA APP                               
+20130208 112704 ==================================================================
+20130208 112704 Servidor de mensagens iniciado com sucesso!
+20130208 112704 !!!Connect Mysql Sucess!!!
+20130208 112704 Encontrado(s) 3 databases
+20130208 112704        -information_schema
+20130208 112704        -CSTA
+20130208 112704        -mysql
+20130208 112704        -
+20130208 112704 Erro criar tabela csta - MySQL server has gone away
+20130208 112704        -
+20130208 112704 Erro criar tabela device - MySQL server has gone away
+20130208 112704 !!!Incializando threads!!!
+20130208 112704 Iniciando comunicacao por Socket
+20130208 112704 InitializeSocket 192.168.0.1:7001
+20130208 112704 IP Resolvido: 192.168.0.1
+20130208 112704 !!!Rodando CstaMainLoop!!!
+20130208 112707 !!!connect error!!!
+20130208 113203 ==================================================================
+20130208 113203                            CSTA APP                               
+20130208 113203 ==================================================================
+20130208 113203 Servidor de mensagens iniciado com sucesso!
+20130208 113203 !!!Connect Mysql Sucess!!!
+20130208 113203 Encontrado(s) 3 databases
+20130208 113203        -information_schema
+20130208 113203        -CSTA
+20130208 113203        -mysql
+20130208 113203        -
+20130208 113203 Erro criar tabela csta - MySQL server has gone away
+20130208 113203        -
+20130208 113203 Erro criar tabela device - MySQL server has gone away
+20130208 113203 !!!Incializando threads!!!
+20130208 113203 Iniciando comunicacao por Socket
+20130208 113203 InitializeSocket 192.168.0.1:7001
+20130208 113203 IP Resolvido: 192.168.0.1
+20130208 113203 !!!Rodando CstaMainLoop!!!
+20130208 113206 !!!connect error!!!
+20130208 113347 ==================================================================
+20130208 113347                            CSTA APP                               
+20130208 113347 ==================================================================
+20130208 113347 Servidor de mensagens iniciado com sucesso!
+20130208 113347 !!!Connect Mysql Sucess!!!
+20130208 113347 Encontrado(s) 3 databases
+20130208 113347        -information_schema
+20130208 113347        -CSTA
+20130208 113347        -mysql
+20130208 113347        -
+20130208 113347 Erro criar tabela csta - MySQL server has gone away
+20130208 113347        -
+20130208 113347 Erro criar tabela device - MySQL server has gone away
+20130208 113347 !!!Incializando threads!!!
+20130208 113347 Iniciando comunicacao por Socket
+20130208 113347 InitializeSocket 192.168.0.1:7001
+20130208 113347 IP Resolvido: 192.168.0.1
+20130208 113347 !!!Rodando CstaMainLoop!!!
+20130208 113350 !!!connect error!!!
+20130208 115119 ==================================================================
+20130208 115119                            CSTA APP                               
+20130208 115119 ==================================================================
+20130208 115119 Servidor de mensagens iniciado com sucesso!
+20130208 115119 !!!Connect Mysql Sucess!!!
+20130208 115119 Encontrado(s) 3 databases
+20130208 115119        -information_schema
+20130208 115119        -CSTA
+20130208 115119        -mysql
+20130208 115119        -
+20130208 115119 Erro criar tabela csta - MySQL server has gone away
+20130208 115119        -
+20130208 115119 Erro criar tabela device - MySQL server has gone away
+20130208 115119 !!!Incializando threads!!!
+20130208 115119 Iniciando comunicacao por Socket
+20130208 115119 InitializeSocket 192.168.0.1:7001
+20130208 115119 IP Resolvido: 192.168.0.1
+20130208 115119 !!!Rodando CstaMainLoop!!!
+20130208 115122 !!!connect error!!!
+20130208 115341 ==================================================================
+20130208 115341                            CSTA APP                               
+20130208 115341 ==================================================================
+20130208 115341 Servidor de mensagens iniciado com sucesso!
+20130208 115341 !!!Connect Mysql Sucess!!!
+20130208 115341 Encontrado(s) 3 databases
+20130208 115341        -information_schema
+20130208 115341        -CSTA
+20130208 115341        -mysql
+20130208 115341        -
+20130208 115341 Erro criar tabela csta - MySQL server has gone away
+20130208 115341        -
+20130208 115341 Erro criar tabela device - MySQL server has gone away
+20130208 115341 !!!Incializando threads!!!
+20130208 115341 Iniciando comunicacao por Socket
+20130208 115341 InitializeSocket 192.168.0.1:7001
+20130208 115341 IP Resolvido: 192.168.0.1
+20130208 115341 !!!Rodando CstaMainLoop!!!
+20130208 115344 !!!connect error!!!
+20130208 115547 ==================================================================
+20130208 115547                            CSTA APP                               
+20130208 115547 ==================================================================
+20130208 115547 Servidor de mensagens iniciado com sucesso!
+20130208 115547 !!!Connect Mysql Sucess!!!
+20130208 115547 Encontrado(s) 3 databases
+20130208 115547        -information_schema
+20130208 115547        -CSTA
+20130208 115547        -mysql
+20130208 115547        -
+20130208 115547 Erro criar tabela csta - MySQL server has gone away
+20130208 115547        -
+20130208 115547 Erro criar tabela device - MySQL server has gone away
+20130208 115547 !!!Incializando threads!!!
+20130208 115547 Iniciando comunicacao por Socket
+20130208 115547 InitializeSocket 192.168.0.1:7001
+20130208 115547 IP Resolvido: 192.168.0.1
+20130208 115547 !!!Rodando CstaMainLoop!!!
+20130208 115550 !!!connect error!!!
+20130208 115952 ==================================================================
+20130208 115952                            CSTA APP                               
+20130208 115952 ==================================================================
+20130208 115952 Servidor de mensagens iniciado com sucesso!
+20130208 115952 !!!Connect Mysql Sucess!!!
+20130208 115952 Encontrado(s) 3 databases
+20130208 115952        -information_schema
+20130208 115952        -CSTA
+20130208 115952        -mysql
+20130208 115952        -
+20130208 115952 Erro criar tabela csta - MySQL server has gone away
+20130208 115952        -
+20130208 115952 Erro criar tabela device - MySQL server has gone away
+20130208 115952 !!!Incializando threads!!!
+20130208 115952 Iniciando comunicacao por Socket
+20130208 115952 InitializeSocket 192.168.0.1:7001
+20130208 115952 IP Resolvido: 192.168.0.1
+20130208 115952 !!!Rodando CstaMainLoop!!!
+20130208 115955 !!!connect error!!!
+20130208 120018 ==================================================================
+20130208 120018                            CSTA APP                               
+20130208 120018 ==================================================================
+20130208 120018 Servidor de mensagens iniciado com sucesso!
+20130208 120018 !!!Connect Mysql Sucess!!!
+20130208 120018 Encontrado(s) 3 databases
+20130208 120018        -information_schema
+20130208 120018        -CSTA
+20130208 120018        -mysql
+20130208 120018        -
+20130208 120018 Erro criar tabela csta - MySQL server has gone away
+20130208 120018        -
+20130208 120018 Erro criar tabela device - MySQL server has gone away
+20130208 120018 !!!Incializando threads!!!
+20130208 120018 Iniciando comunicacao por Socket
+20130208 120018 InitializeSocket 192.168.0.1:7001
+20130208 120018 IP Resolvido: 192.168.0.1
+20130208 120018 !!!Rodando CstaMainLoop!!!
+20130208 120035 !!!connect error!!!
+20130208 120146 ==================================================================
+20130208 120146                            CSTA APP                               
+20130208 120146 ==================================================================
+20130208 120146 Servidor de mensagens iniciado com sucesso!
+20130208 120146 !!!Connect Mysql Sucess!!!
+20130208 120146 Encontrado(s) 3 databases
+20130208 120146        -information_schema
+20130208 120146        -CSTA
+20130208 120146        -mysql
+20130208 120146        -
+20130208 120146 Erro criar tabela csta - MySQL server has gone away
+20130208 120146        -
+20130208 120146 Erro criar tabela device - MySQL server has gone away
+20130208 120146 !!!Incializando threads!!!
+20130208 120146 Iniciando comunicacao por Socket
+20130208 120146 InitializeSocket 192.168.0.1:7001
+20130208 120146 IP Resolvido: 192.168.0.1
+20130208 120146 !!!Rodando CstaMainLoop!!!
+20130208 120149 !!!connect error!!!
+20130208 120348 ==================================================================
+20130208 120348                            CSTA APP                               
+20130208 120348 ==================================================================
+20130208 120348 Servidor de mensagens iniciado com sucesso!
+20130208 120348 !!!Connect Mysql Sucess!!!
+20130208 120348 Encontrado(s) 3 databases
+20130208 120348        -information_schema
+20130208 120348        -CSTA
+20130208 120348        -mysql
+20130208 120348        -
+20130208 120348 Erro criar tabela csta - MySQL server has gone away
+20130208 120348        -
+20130208 120348 Erro criar tabela device - MySQL server has gone away
+20130208 120348 !!!Incializando threads!!!
+20130208 120348 Iniciando comunicacao por Socket
+20130208 120348 InitializeSocket 192.168.0.1:7001
+20130208 120348 IP Resolvido: 192.168.0.1
+20130208 120348 !!!Rodando CstaMainLoop!!!
+20130208 120351 !!!connect error!!!
+20130208 120653 ==================================================================
+20130208 120653                            CSTA APP                               
+20130208 120653 ==================================================================
+20130208 120653 Servidor de mensagens iniciado com sucesso!
+20130208 120653 !!!Connect Mysql Sucess!!!
+20130208 120653 Encontrado(s) 3 databases
+20130208 120653        -information_schema
+20130208 120653        -CSTA
+20130208 120653        -mysql
+20130208 120653        -
+20130208 120653 Erro criar tabela csta - MySQL server has gone away
+20130208 120653        -
+20130208 120653 Erro criar tabela device - MySQL server has gone away
+20130208 120653 !!!Incializando threads!!!
+20130208 120653 Iniciando comunicacao por Socket
+20130208 120653 InitializeSocket 192.168.0.1:7001
+20130208 120653 IP Resolvido: 192.168.0.1
+20130208 120653 !!!Rodando CstaMainLoop!!!
+20130208 120656 !!!connect error!!!
+20130208 121108 ==================================================================
+20130208 121108                            CSTA APP                               
+20130208 121108 ==================================================================
+20130208 121108 Servidor de mensagens iniciado com sucesso!
+20130208 121108 !!!Connect Mysql Sucess!!!
+20130208 121108 Encontrado(s) 3 databases
+20130208 121108        -information_schema
+20130208 121108        -CSTA
+20130208 121108        -mysql
+20130208 121108        -
+20130208 121108 Erro criar tabela csta - MySQL server has gone away
+20130208 121108        -
+20130208 121108 Erro criar tabela device - MySQL server has gone away
+20130208 121108 !!!Incializando threads!!!
+20130208 121108 Iniciando comunicacao por Socket
+20130208 121108 InitializeSocket 192.168.0.1:7001
+20130208 121108 IP Resolvido: 192.168.0.1
+20130208 121108 !!!Rodando CstaMainLoop!!!
+20130208 121111 !!!connect error!!!
+20130208 134819 ==================================================================
+20130208 134819                            CSTA APP                               
+20130208 134819 ==================================================================
+20130208 134819 Servidor de mensagens iniciado com sucesso!
+20130208 134819 !!!Connect Mysql Sucess!!!
+20130208 134819 Encontrado(s) 3 databases
+20130208 134819        -information_schema
+20130208 134819        -CSTA
+20130208 134819        -mysql
+20130208 134819 !!!Incializando threads!!!
+20130208 134819 Iniciando comunicacao por Socket
+20130208 134819 InitializeSocket 192.168.0.1:7001
+20130208 134819 IP Resolvido: 192.168.0.1
+20130208 134819 !!!Rodando CstaMainLoop!!!
+20130208 134822 !!!connect error!!!
+20130208 134831 ==================================================================
+20130208 134831                            CSTA APP                               
+20130208 134831 ==================================================================
+20130208 134831 Servidor de mensagens iniciado com sucesso!
+20130208 134831 !!!Connect Mysql Sucess!!!
+20130208 134831 Encontrado(s) 4 databases
+20130208 134831        -information_schema
+20130208 134831        -CSTA
+20130208 134831        -asterisk
+20130208 134831        -mysql
+20130208 134831 !!!Incializando threads!!!
+20130208 134831 !!!Rodando CstaMainLoop!!!
+20130208 134831 Iniciando comunicacao por Socket
+20130208 134831 InitializeSocket 192.168.0.1:7001
+20130208 134831 IP Resolvido: 192.168.0.1
+20130208 134834 !!!connect error!!!

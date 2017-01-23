@@ -1,0 +1,785 @@
+20130218 142319 ==================================================================
+20130218 142319                            CSTA APP(1.0.0.1)                               
+20130218 142319 ==================================================================
+20130218 142321 Servidor de mensagens iniciado com sucesso!
+20130218 142321 !!!Connect Mysql Sucess!!!
+20130218 142321 Encontrado(s) 4 databases
+20130218 142321        -information_schema
+20130218 142321        -CSTA
+20130218 142321        -asterisk
+20130218 142321        -mysql
+20130218 142322 !!!Incializando threads!!!
+20130218 142322 !!!Rodando CstaMainLoop!!!
+20130218 142322 Iniciando comunicacao por Socket
+20130218 142322 InitializeSocket 192.168.0.1:7001
+20130218 142322 IP Resolvido: 192.168.0.1
+20130218 142343 !!!connect error!!!
+20130218 142353 Iniciando comunicacao por Socket
+20130218 142354 InitializeSocket 192.168.0.1:7001
+20130218 142354 IP Resolvido: 192.168.0.1
+20130218 142415 !!!connect error!!!
+20130218 142425 Iniciando comunicacao por Socket
+20130218 142425 InitializeSocket 192.168.0.1:7001
+20130218 142425 IP Resolvido: 192.168.0.1
+20130218 142446 !!!connect error!!!
+20130218 142456 Iniciando comunicacao por Socket
+20130218 142456 InitializeSocket 192.168.0.1:7001
+20130218 142456 IP Resolvido: 192.168.0.1
+20130218 142517 !!!connect error!!!
+20130218 142527 Iniciando comunicacao por Socket
+20130218 142527 InitializeSocket 192.168.0.1:7001
+20130218 142527 IP Resolvido: 192.168.0.1
+20130218 142548 !!!connect error!!!
+20130218 142558 Iniciando comunicacao por Socket
+20130218 142558 InitializeSocket 192.168.0.1:7001
+20130218 142558 IP Resolvido: 192.168.0.1
+20130218 142619 !!!connect error!!!
+20130218 142900 ==================================================================
+20130218 142900                            CSTA APP(1.0.0.1)                               
+20130218 142900 ==================================================================
+20130218 142901 Servidor de mensagens iniciado com sucesso!
+20130218 142901 !!!Connect Mysql Sucess!!!
+20130218 142901 Encontrado(s) 4 databases
+20130218 142901        -information_schema
+20130218 142901        -CSTA
+20130218 142901        -asterisk
+20130218 142901        -mysql
+20130218 142901 !!!Incializando threads!!!
+20130218 142901 !!!Rodando CstaMainLoop!!!
+20130218 142901 Iniciando comunicacao por Socket
+20130218 142901 InitializeSocket 192.168.0.1:7001
+20130218 142901 IP Resolvido: 192.168.0.1
+20130218 142922 !!!connect error!!!
+20130218 142932 Iniciando comunicacao por Socket
+20130218 142932 InitializeSocket 192.168.0.1:7001
+20130218 142932 IP Resolvido: 192.168.0.1
+20130218 143805 ==================================================================
+20130218 143805                            CSTA APP(1.0.0.1)                               
+20130218 143805 ==================================================================
+20130218 143805 Servidor de mensagens iniciado com sucesso!
+20130218 143805 !!!Connect Mysql Sucess!!!
+20130218 143805 Encontrado(s) 4 databases
+20130218 143805        -information_schema
+20130218 143805        -CSTA
+20130218 143805        -asterisk
+20130218 143805        -mysql
+20130218 143805 !!!Incializando threads!!!
+20130218 143805 !!!Rodando CstaMainLoop!!!
+20130218 143806 Iniciando comunicacao por Socket
+20130218 143806 InitializeSocket 192.168.0.1:7001
+20130218 143806 IP Resolvido: 192.168.0.1
+20130218 143827 !!!connect error!!!
+20130218 143837 Iniciando comunicacao por Socket
+20130218 143837 InitializeSocket 192.168.0.1:7001
+20130218 143837 IP Resolvido: 192.168.0.1
+20130218 143858 !!!connect error!!!
+20130218 143908 Iniciando comunicacao por Socket
+20130218 143908 InitializeSocket 192.168.0.1:7001
+20130218 143908 IP Resolvido: 192.168.0.1
+20130218 143929 !!!connect error!!!
+20130218 143939 Iniciando comunicacao por Socket
+20130218 143939 InitializeSocket 192.168.0.1:7001
+20130218 143939 IP Resolvido: 192.168.0.1
+20130218 144000 !!!connect error!!!
+20130218 144234 ==================================================================
+20130218 144234                            CSTA APP(1.0.0.1)                               
+20130218 144234 ==================================================================
+20130218 144235 Servidor de mensagens iniciado com sucesso!
+20130218 144235 !!!Connect Mysql Sucess!!!
+20130218 144235 Encontrado(s) 4 databases
+20130218 144235        -information_schema
+20130218 144235        -CSTA
+20130218 144235        -asterisk
+20130218 144235        -mysql
+20130218 144235 !!!Incializando threads!!!
+20130218 144235 !!!Rodando CstaMainLoop!!!
+20130218 144235 Iniciando comunicacao por Socket
+20130218 144235 InitializeSocket 192.168.0.1:7001
+20130218 144235 IP Resolvido: 192.168.0.1
+20130218 144256 !!!connect error!!!
+20130218 144306 Iniciando comunicacao por Socket
+20130218 144306 InitializeSocket 192.168.0.1:7001
+20130218 144306 IP Resolvido: 192.168.0.1
+20130218 144327 !!!connect error!!!
+20130218 144337 Iniciando comunicacao por Socket
+20130218 144337 InitializeSocket 192.168.0.1:7001
+20130218 144337 IP Resolvido: 192.168.0.1
+20130218 144358 !!!connect error!!!
+20130218 144542 ==================================================================
+20130218 144542                            CSTA APP(1.0.0.1)                               
+20130218 144542 ==================================================================
+20130218 144542 Servidor de mensagens iniciado com sucesso!
+20130218 144542 !!!Connect Mysql Sucess!!!
+20130218 144542 Encontrado(s) 4 databases
+20130218 144542        -information_schema
+20130218 144542        -CSTA
+20130218 144542        -asterisk
+20130218 144542        -mysql
+20130218 144542 !!!Incializando threads!!!
+20130218 144542 !!!Rodando CstaMainLoop!!!
+20130218 144542 Iniciando comunicacao por Socket
+20130218 144542 InitializeSocket 192.168.0.1:7001
+20130218 144542 IP Resolvido: 192.168.0.1
+20130218 144603 !!!connect error!!!
+20130218 144613 Iniciando comunicacao por Socket
+20130218 144613 InitializeSocket 192.168.0.1:7001
+20130218 144613 IP Resolvido: 192.168.0.1
+20130218 144634 !!!connect error!!!
+20130218 144644 Iniciando comunicacao por Socket
+20130218 144645 InitializeSocket 192.168.0.1:7001
+20130218 144645 IP Resolvido: 192.168.0.1
+20130218 144917 ==================================================================
+20130218 144917                            CSTA APP(1.0.0.1)                               
+20130218 144917 ==================================================================
+20130218 144918 Servidor de mensagens iniciado com sucesso!
+20130218 144918 !!!Connect Mysql Sucess!!!
+20130218 144918 Encontrado(s) 4 databases
+20130218 144918        -information_schema
+20130218 144918        -CSTA
+20130218 144918        -asterisk
+20130218 144918        -mysql
+20130218 144918 !!!Incializando threads!!!
+20130218 144918 !!!Rodando CstaMainLoop!!!
+20130218 144918 Iniciando comunicacao por Socket
+20130218 144918 InitializeSocket 192.168.0.1:7001
+20130218 144918 IP Resolvido: 192.168.0.1
+20130218 144939 !!!connect error!!!
+20130218 144949 Iniciando comunicacao por Socket
+20130218 144949 InitializeSocket 192.168.0.1:7001
+20130218 144949 IP Resolvido: 192.168.0.1
+20130218 145010 !!!connect error!!!
+20130218 145020 Iniciando comunicacao por Socket
+20130218 145020 InitializeSocket 192.168.0.1:7001
+20130218 145020 IP Resolvido: 192.168.0.1
+20130218 145041 !!!connect error!!!
+20130218 145051 Iniciando comunicacao por Socket
+20130218 145051 InitializeSocket 192.168.0.1:7001
+20130218 145051 IP Resolvido: 192.168.0.1
+20130218 145112 !!!connect error!!!
+20130218 145122 Iniciando comunicacao por Socket
+20130218 145122 InitializeSocket 192.168.0.1:7001
+20130218 145122 IP Resolvido: 192.168.0.1
+20130218 145143 !!!connect error!!!
+20130218 145153 Iniciando comunicacao por Socket
+20130218 145153 InitializeSocket 192.168.0.1:7001
+20130218 145153 IP Resolvido: 192.168.0.1
+20130218 145214 !!!connect error!!!
+20130218 145224 Iniciando comunicacao por Socket
+20130218 145224 InitializeSocket 192.168.0.1:7001
+20130218 145224 IP Resolvido: 192.168.0.1
+20130218 145245 !!!connect error!!!
+20130218 145255 Iniciando comunicacao por Socket
+20130218 145255 InitializeSocket 192.168.0.1:7001
+20130218 145255 IP Resolvido: 192.168.0.1
+20130218 145316 !!!connect error!!!
+20130218 145326 Iniciando comunicacao por Socket
+20130218 145326 InitializeSocket 192.168.0.1:7001
+20130218 145326 IP Resolvido: 192.168.0.1
+20130218 145347 !!!connect error!!!
+20130218 145357 Iniciando comunicacao por Socket
+20130218 145357 InitializeSocket 192.168.0.1:7001
+20130218 145357 IP Resolvido: 192.168.0.1
+20130218 145418 !!!connect error!!!
+20130218 145428 Iniciando comunicacao por Socket
+20130218 145428 InitializeSocket 192.168.0.1:7001
+20130218 145428 IP Resolvido: 192.168.0.1
+20130218 145449 !!!connect error!!!
+20130218 145459 Iniciando comunicacao por Socket
+20130218 145459 InitializeSocket 192.168.0.1:7001
+20130218 145459 IP Resolvido: 192.168.0.1
+20130218 145520 !!!connect error!!!
+20130218 145530 Iniciando comunicacao por Socket
+20130218 145530 InitializeSocket 192.168.0.1:7001
+20130218 145530 IP Resolvido: 192.168.0.1
+20130218 145551 !!!connect error!!!
+20130218 145601 Iniciando comunicacao por Socket
+20130218 145601 InitializeSocket 192.168.0.1:7001
+20130218 145601 IP Resolvido: 192.168.0.1
+20130218 145622 !!!connect error!!!
+20130218 145632 Iniciando comunicacao por Socket
+20130218 145632 InitializeSocket 192.168.0.1:7001
+20130218 145632 IP Resolvido: 192.168.0.1
+20130218 145653 !!!connect error!!!
+20130218 145703 Iniciando comunicacao por Socket
+20130218 145703 InitializeSocket 192.168.0.1:7001
+20130218 145703 IP Resolvido: 192.168.0.1
+20130218 145724 !!!connect error!!!
+20130218 145734 Iniciando comunicacao por Socket
+20130218 145734 InitializeSocket 192.168.0.1:7001
+20130218 145734 IP Resolvido: 192.168.0.1
+20130218 145755 !!!connect error!!!
+20130218 145805 Iniciando comunicacao por Socket
+20130218 145805 InitializeSocket 192.168.0.1:7001
+20130218 145805 IP Resolvido: 192.168.0.1
+20130218 145826 !!!connect error!!!
+20130218 145836 Iniciando comunicacao por Socket
+20130218 145836 InitializeSocket 192.168.0.1:7001
+20130218 145836 IP Resolvido: 192.168.0.1
+20130218 145857 !!!connect error!!!
+20130218 145907 Iniciando comunicacao por Socket
+20130218 145908 InitializeSocket 192.168.0.1:7001
+20130218 145908 IP Resolvido: 192.168.0.1
+20130218 145929 !!!connect error!!!
+20130218 145939 Iniciando comunicacao por Socket
+20130218 145939 InitializeSocket 192.168.0.1:7001
+20130218 145939 IP Resolvido: 192.168.0.1
+20130218 150000 !!!connect error!!!
+20130218 150010 Iniciando comunicacao por Socket
+20130218 150010 InitializeSocket 192.168.0.1:7001
+20130218 150010 IP Resolvido: 192.168.0.1
+20130218 150031 !!!connect error!!!
+20130218 150041 Iniciando comunicacao por Socket
+20130218 150041 InitializeSocket 192.168.0.1:7001
+20130218 150041 IP Resolvido: 192.168.0.1
+20130218 150102 !!!connect error!!!
+20130218 150112 Iniciando comunicacao por Socket
+20130218 150112 InitializeSocket 192.168.0.1:7001
+20130218 150112 IP Resolvido: 192.168.0.1
+20130218 150133 !!!connect error!!!
+20130218 150143 ==================================================================
+20130218 150143                            CSTA APP(1.0.0.1)                               
+20130218 150143 ==================================================================
+20130218 150144 Servidor de mensagens iniciado com sucesso!
+20130218 150144 !!!Connect Mysql Sucess!!!
+20130218 150410 ==================================================================
+20130218 150410                            CSTA APP(1.0.0.1)                               
+20130218 150410 ==================================================================
+20130218 150411 Servidor de mensagens iniciado com sucesso!
+20130218 150411 !!!Connect Mysql Sucess!!!
+20130218 150411 Encontrado(s) 4 databases
+20130218 150411        -information_schema
+20130218 150411        -CSTA
+20130218 150411        -asterisk
+20130218 150411        -mysql
+20130218 150411 !!!Incializando threads!!!
+20130218 150411 !!!Rodando CstaMainLoop!!!
+20130218 150411 Iniciando comunicacao por Socket
+20130218 150411 InitializeSocket 192.168.0.1:7001
+20130218 150411 IP Resolvido: 192.168.0.1
+20130218 150432 !!!connect error!!!
+20130218 150442 Iniciando comunicacao por Socket
+20130218 150442 InitializeSocket 192.168.0.1:7001
+20130218 150442 IP Resolvido: 192.168.0.1
+20130218 150503 !!!connect error!!!
+20130218 150513 Iniciando comunicacao por Socket
+20130218 150513 InitializeSocket 192.168.0.1:7001
+20130218 150513 IP Resolvido: 192.168.0.1
+20130218 150534 !!!connect error!!!
+20130218 150544 Iniciando comunicacao por Socket
+20130218 150544 InitializeSocket 192.168.0.1:7001
+20130218 150544 IP Resolvido: 192.168.0.1
+20130218 150605 !!!connect error!!!
+20130218 150615 Iniciando comunicacao por Socket
+20130218 150615 InitializeSocket 192.168.0.1:7001
+20130218 150615 IP Resolvido: 192.168.0.1
+20130218 150636 !!!connect error!!!
+20130218 150646 Iniciando comunicacao por Socket
+20130218 150646 InitializeSocket 192.168.0.1:7001
+20130218 150646 IP Resolvido: 192.168.0.1
+20130218 150707 !!!connect error!!!
+20130218 150717 Iniciando comunicacao por Socket
+20130218 150717 InitializeSocket 192.168.0.1:7001
+20130218 150717 IP Resolvido: 192.168.0.1
+20130218 150738 !!!connect error!!!
+20130218 150748 Iniciando comunicacao por Socket
+20130218 150748 InitializeSocket 192.168.0.1:7001
+20130218 150748 IP Resolvido: 192.168.0.1
+20130218 150809 !!!connect error!!!
+20130218 150819 Iniciando comunicacao por Socket
+20130218 150819 InitializeSocket 192.168.0.1:7001
+20130218 150819 IP Resolvido: 192.168.0.1
+20130218 150840 !!!connect error!!!
+20130218 150850 Iniciando comunicacao por Socket
+20130218 150850 InitializeSocket 192.168.0.1:7001
+20130218 150850 IP Resolvido: 192.168.0.1
+20130218 150911 !!!connect error!!!
+20130218 150921 Iniciando comunicacao por Socket
+20130218 150921 InitializeSocket 192.168.0.1:7001
+20130218 150921 IP Resolvido: 192.168.0.1
+20130218 150942 !!!connect error!!!
+20130218 150952 Iniciando comunicacao por Socket
+20130218 150952 InitializeSocket 192.168.0.1:7001
+20130218 150952 IP Resolvido: 192.168.0.1
+20130218 151239 ==================================================================
+20130218 151239                            CSTA APP(1.0.0.1)                               
+20130218 151239 ==================================================================
+20130218 151243 Servidor de mensagens iniciado com sucesso!
+20130218 151243 !!!Connect Mysql Sucess!!!
+20130218 151245 Encontrado(s) 4 databases
+20130218 151245        -information_schema
+20130218 151245        -CSTA
+20130218 151245        -asterisk
+20130218 151245        -mysql
+20130218 151246 !!!Incializando threads!!!
+20130218 151246 !!!Rodando CstaMainLoop!!!
+20130218 151248 Iniciando comunicacao por Socket
+20130218 151248 InitializeSocket 192.168.0.1:7001
+20130218 151248 IP Resolvido: 192.168.0.1
+20130218 151309 !!!connect error!!!
+20130218 151319 Iniciando comunicacao por Socket
+20130218 151320 InitializeSocket 192.168.0.1:7001
+20130218 151320 IP Resolvido: 192.168.0.1
+20130218 151341 !!!connect error!!!
+20130218 151351 Iniciando comunicacao por Socket
+20130218 151351 InitializeSocket 192.168.0.1:7001
+20130218 151351 IP Resolvido: 192.168.0.1
+20130218 151412 !!!connect error!!!
+20130218 151422 Iniciando comunicacao por Socket
+20130218 151422 InitializeSocket 192.168.0.1:7001
+20130218 151422 IP Resolvido: 192.168.0.1
+20130218 151443 !!!connect error!!!
+20130218 151453 Iniciando comunicacao por Socket
+20130218 151453 InitializeSocket 192.168.0.1:7001
+20130218 151453 IP Resolvido: 192.168.0.1
+20130218 151514 !!!connect error!!!
+20130218 151524 Iniciando comunicacao por Socket
+20130218 151524 InitializeSocket 192.168.0.1:7001
+20130218 151524 IP Resolvido: 192.168.0.1
+20130218 151545 !!!connect error!!!
+20130218 151555 Iniciando comunicacao por Socket
+20130218 151555 InitializeSocket 192.168.0.1:7001
+20130218 151555 IP Resolvido: 192.168.0.1
+20130218 151616 !!!connect error!!!
+20130218 151626 Iniciando comunicacao por Socket
+20130218 151626 InitializeSocket 192.168.0.1:7001
+20130218 151626 IP Resolvido: 192.168.0.1
+20130218 151647 !!!connect error!!!
+20130218 151657 Iniciando comunicacao por Socket
+20130218 151657 InitializeSocket 192.168.0.1:7001
+20130218 151657 IP Resolvido: 192.168.0.1
+20130218 151718 !!!connect error!!!
+20130218 151728 Iniciando comunicacao por Socket
+20130218 151728 InitializeSocket 192.168.0.1:7001
+20130218 151728 IP Resolvido: 192.168.0.1
+20130218 151749 !!!connect error!!!
+20130218 151759 Iniciando comunicacao por Socket
+20130218 151759 InitializeSocket 192.168.0.1:7001
+20130218 151759 IP Resolvido: 192.168.0.1
+20130218 151820 !!!connect error!!!
+20130218 151830 Iniciando comunicacao por Socket
+20130218 151830 InitializeSocket 192.168.0.1:7001
+20130218 151830 IP Resolvido: 192.168.0.1
+20130218 151851 !!!connect error!!!
+20130218 151901 Iniciando comunicacao por Socket
+20130218 151901 InitializeSocket 192.168.0.1:7001
+20130218 151901 IP Resolvido: 192.168.0.1
+20130218 151922 !!!connect error!!!
+20130218 151932 Iniciando comunicacao por Socket
+20130218 151932 InitializeSocket 192.168.0.1:7001
+20130218 151932 IP Resolvido: 192.168.0.1
+20130218 151953 !!!connect error!!!
+20130218 152003 Iniciando comunicacao por Socket
+20130218 152003 InitializeSocket 192.168.0.1:7001
+20130218 152003 IP Resolvido: 192.168.0.1
+20130218 152024 !!!connect error!!!
+20130218 152034 Iniciando comunicacao por Socket
+20130218 152034 InitializeSocket 192.168.0.1:7001
+20130218 152034 IP Resolvido: 192.168.0.1
+20130218 152055 !!!connect error!!!
+20130218 152105 Iniciando comunicacao por Socket
+20130218 152105 InitializeSocket 192.168.0.1:7001
+20130218 152105 IP Resolvido: 192.168.0.1
+20130218 152126 !!!connect error!!!
+20130218 152136 Iniciando comunicacao por Socket
+20130218 152136 InitializeSocket 192.168.0.1:7001
+20130218 152136 IP Resolvido: 192.168.0.1
+20130218 152157 !!!connect error!!!
+20130218 152207 Iniciando comunicacao por Socket
+20130218 152207 InitializeSocket 192.168.0.1:7001
+20130218 152207 IP Resolvido: 192.168.0.1
+20130218 152228 !!!connect error!!!
+20130218 152238 Iniciando comunicacao por Socket
+20130218 152238 InitializeSocket 192.168.0.1:7001
+20130218 152238 IP Resolvido: 192.168.0.1
+20130218 152259 !!!connect error!!!
+20130218 152309 Iniciando comunicacao por Socket
+20130218 152309 InitializeSocket 192.168.0.1:7001
+20130218 152309 IP Resolvido: 192.168.0.1
+20130218 152330 !!!connect error!!!
+20130218 152340 Iniciando comunicacao por Socket
+20130218 152340 InitializeSocket 192.168.0.1:7001
+20130218 152340 IP Resolvido: 192.168.0.1
+20130218 152401 !!!connect error!!!
+20130218 152411 Iniciando comunicacao por Socket
+20130218 152411 InitializeSocket 192.168.0.1:7001
+20130218 152411 IP Resolvido: 192.168.0.1
+20130218 152432 !!!connect error!!!
+20130218 152442 Iniciando comunicacao por Socket
+20130218 152442 InitializeSocket 192.168.0.1:7001
+20130218 152442 IP Resolvido: 192.168.0.1
+20130218 152503 !!!connect error!!!
+20130218 152513 Iniciando comunicacao por Socket
+20130218 152513 InitializeSocket 192.168.0.1:7001
+20130218 152513 IP Resolvido: 192.168.0.1
+20130218 152534 !!!connect error!!!
+20130218 152544 Iniciando comunicacao por Socket
+20130218 152544 InitializeSocket 192.168.0.1:7001
+20130218 152544 IP Resolvido: 192.168.0.1
+20130218 152605 !!!connect error!!!
+20130218 152615 Iniciando comunicacao por Socket
+20130218 152615 InitializeSocket 192.168.0.1:7001
+20130218 152615 IP Resolvido: 192.168.0.1
+20130218 152636 !!!connect error!!!
+20130218 152646 Iniciando comunicacao por Socket
+20130218 152646 InitializeSocket 192.168.0.1:7001
+20130218 152646 IP Resolvido: 192.168.0.1
+20130218 152728 ==================================================================
+20130218 152728                            CSTA APP(1.0.0.1)                               
+20130218 152728 ==================================================================
+20130218 152728 Servidor de mensagens iniciado com sucesso!
+20130218 152728 !!!Connect Mysql Sucess!!!
+20130218 152729 Encontrado(s) 4 databases
+20130218 152729        -information_schema
+20130218 152729        -CSTA
+20130218 152729        -asterisk
+20130218 152729        -mysql
+20130218 152729 !!!Incializando threads!!!
+20130218 152729 !!!Rodando CstaMainLoop!!!
+20130218 152729 Iniciando comunicacao por Socket
+20130218 152729 InitializeSocket 192.168.0.1:7001
+20130218 152729 IP Resolvido: 192.168.0.1
+20130218 152750 !!!connect error!!!
+20130218 152801 Iniciando comunicacao por Socket
+20130218 152801 InitializeSocket 192.168.0.1:7001
+20130218 152801 IP Resolvido: 192.168.0.1
+20130218 152822 !!!connect error!!!
+20130218 152832 Iniciando comunicacao por Socket
+20130218 152832 InitializeSocket 192.168.0.1:7001
+20130218 152832 IP Resolvido: 192.168.0.1
+20130218 152853 !!!connect error!!!
+20130218 152903 Iniciando comunicacao por Socket
+20130218 152903 InitializeSocket 192.168.0.1:7001
+20130218 152903 IP Resolvido: 192.168.0.1
+20130218 194826 ==================================================================
+20130218 194826                            CSTA APP(1.0.0.1)                               
+20130218 194826 ==================================================================
+20130218 194826 Servidor de mensagens iniciado com sucesso!
+20130218 194826 !!!Connect Mysql Sucess!!!
+20130218 194826 Encontrado(s) 4 databases
+20130218 194826        -information_schema
+20130218 194826        -CSTA
+20130218 194826        -asterisk
+20130218 194826        -mysql
+20130218 194826 !!!Incializando threads!!!
+20130218 194826 Iniciando comunicacao por Socket
+20130218 194826 InitializeSocket 192.168.0.1:7001
+20130218 194826 IP Resolvido: 192.168.0.1
+20130218 194826 !!!Rodando CstaMainLoop!!!
+20130218 194847 !!!connect error!!!
+20130218 194857 Iniciando comunicacao por Socket
+20130218 194857 InitializeSocket 192.168.0.1:7001
+20130218 194857 IP Resolvido: 192.168.0.1
+20130218 194918 !!!connect error!!!
+20130218 194928 Iniciando comunicacao por Socket
+20130218 194928 InitializeSocket 192.168.0.1:7001
+20130218 194928 IP Resolvido: 192.168.0.1
+20130218 194949 !!!connect error!!!
+20130218 201011 ==================================================================
+20130218 201011                            CSTA APP(1.0.0.1)                               
+20130218 201011 ==================================================================
+20130218 201011 Servidor de mensagens iniciado com sucesso!
+20130218 201011 !!!Connect Mysql Sucess!!!
+20130218 201011 Encontrado(s) 4 databases
+20130218 201011        -information_schema
+20130218 201011        -CSTA
+20130218 201011        -asterisk
+20130218 201011        -mysql
+20130218 201011 !!!Incializando threads!!!
+20130218 201011 Iniciando comunicacao por Socket
+20130218 201011 InitializeSocket 192.168.0.1:7001
+20130218 201011 IP Resolvido: 192.168.0.1
+20130218 201011 !!!Rodando CstaMainLoop!!!
+20130218 201032 !!!connect error!!!
+20130218 201042 Iniciando comunicacao por Socket
+20130218 201042 InitializeSocket 192.168.0.1:7001
+20130218 201042 IP Resolvido: 192.168.0.1
+20130218 201103 !!!connect error!!!
+20130218 201113 Iniciando comunicacao por Socket
+20130218 201113 InitializeSocket 192.168.0.1:7001
+20130218 201113 IP Resolvido: 192.168.0.1
+20130218 201134 !!!connect error!!!
+20130218 201144 Iniciando comunicacao por Socket
+20130218 201144 InitializeSocket 192.168.0.1:7001
+20130218 201144 IP Resolvido: 192.168.0.1
+20130218 201220 ==================================================================
+20130218 201220                            CSTA APP(1.0.0.1)                               
+20130218 201220 ==================================================================
+20130218 201220 Servidor de mensagens iniciado com sucesso!
+20130218 201220 !!!Connect Mysql Sucess!!!
+20130218 201220 Encontrado(s) 4 databases
+20130218 201220        -information_schema
+20130218 201220        -CSTA
+20130218 201220        -asterisk
+20130218 201220        -mysql
+20130218 201220 !!!Incializando threads!!!
+20130218 201220 Iniciando comunicacao por Socket
+20130218 201220 InitializeSocket 192.168.0.1:7001
+20130218 201220 IP Resolvido: 192.168.0.1
+20130218 201220 !!!Rodando CstaMainLoop!!!
+20130218 201241 !!!connect error!!!
+20130218 201319 ==================================================================
+20130218 201319                            CSTA APP(1.0.0.1)                               
+20130218 201319 ==================================================================
+20130218 201319 Servidor de mensagens iniciado com sucesso!
+20130218 201319 !!!Connect Mysql Sucess!!!
+20130218 201319 Encontrado(s) 4 databases
+20130218 201319        -information_schema
+20130218 201319        -CSTA
+20130218 201319        -asterisk
+20130218 201319        -mysql
+20130218 201319 !!!Incializando threads!!!
+20130218 201319 Iniciando comunicacao por Socket
+20130218 201319 InitializeSocket 192.168.0.1:7001
+20130218 201319 IP Resolvido: 192.168.0.1
+20130218 201319 !!!Rodando CstaMainLoop!!!
+20130218 201340 !!!connect error!!!
+20130218 201350 Iniciando comunicacao por Socket
+20130218 201350 InitializeSocket 192.168.0.1:7001
+20130218 201350 IP Resolvido: 192.168.0.1
+20130218 201411 !!!connect error!!!
+20130218 201421 Iniciando comunicacao por Socket
+20130218 201421 InitializeSocket 192.168.0.1:7001
+20130218 201421 IP Resolvido: 192.168.0.1
+20130218 201442 !!!connect error!!!
+20130218 201452 Iniciando comunicacao por Socket
+20130218 201452 InitializeSocket 192.168.0.1:7001
+20130218 201452 IP Resolvido: 192.168.0.1
+20130218 201508 ==================================================================
+20130218 201508                            CSTA APP(1.0.0.1)                               
+20130218 201508 ==================================================================
+20130218 201508 Servidor de mensagens iniciado com sucesso!
+20130218 201508 !!!Connect Mysql Sucess!!!
+20130218 201508 Encontrado(s) 4 databases
+20130218 201508        -information_schema
+20130218 201508        -CSTA
+20130218 201508        -asterisk
+20130218 201508        -mysql
+20130218 201508 !!!Incializando threads!!!
+20130218 201508 Iniciando comunicacao por Socket
+20130218 201508 InitializeSocket 192.168.0.1:7001
+20130218 201508 IP Resolvido: 192.168.0.1
+20130218 201508 !!!Rodando CstaMainLoop!!!
+20130218 201533 ==================================================================
+20130218 201533                            CSTA APP(1.0.0.1)                               
+20130218 201533 ==================================================================
+20130218 201533 Servidor de mensagens iniciado com sucesso!
+20130218 201533 !!!Connect Mysql Sucess!!!
+20130218 201533 Encontrado(s) 4 databases
+20130218 201533        -information_schema
+20130218 201533        -CSTA
+20130218 201533        -asterisk
+20130218 201533        -mysql
+20130218 201533 !!!Incializando threads!!!
+20130218 201533 Iniciando comunicacao por Socket
+20130218 201533 InitializeSocket 192.168.0.1:7001
+20130218 201533 IP Resolvido: 192.168.0.1
+20130218 201533 !!!Rodando CstaMainLoop!!!
+20130218 201706 ==================================================================
+20130218 201706                            CSTA APP(1.0.0.1)                               
+20130218 201706 ==================================================================
+20130218 201706 Servidor de mensagens iniciado com sucesso!
+20130218 201706 !!!Connect Mysql Sucess!!!
+20130218 201706 Encontrado(s) 4 databases
+20130218 201706        -information_schema
+20130218 201706        -CSTA
+20130218 201706        -asterisk
+20130218 201706        -mysql
+20130218 201706 !!!Incializando threads!!!
+20130218 201706 Iniciando comunicacao por Socket
+20130218 201706 InitializeSocket 192.168.0.1:7001
+20130218 201706 IP Resolvido: 192.168.0.1
+20130218 201706 !!!Rodando CstaMainLoop!!!
+20130218 201727 !!!connect error!!!
+20130218 201737 Iniciando comunicacao por Socket
+20130218 201737 InitializeSocket 192.168.0.1:7001
+20130218 201737 IP Resolvido: 192.168.0.1
+20130218 201758 !!!connect error!!!
+20130218 201808 Iniciando comunicacao por Socket
+20130218 201808 InitializeSocket 192.168.0.1:7001
+20130218 201808 IP Resolvido: 192.168.0.1
+20130218 201829 !!!connect error!!!
+20130218 201839 Iniciando comunicacao por Socket
+20130218 201839 InitializeSocket 192.168.0.1:7001
+20130218 201839 IP Resolvido: 192.168.0.1
+20130218 201900 !!!connect error!!!
+20130218 201910 Iniciando comunicacao por Socket
+20130218 201910 InitializeSocket 192.168.0.1:7001
+20130218 201910 IP Resolvido: 192.168.0.1
+20130218 201931 !!!connect error!!!
+20130218 201941 Iniciando comunicacao por Socket
+20130218 201941 InitializeSocket 192.168.0.1:7001
+20130218 201941 IP Resolvido: 192.168.0.1
+20130218 202002 !!!connect error!!!
+20130218 202012 Iniciando comunicacao por Socket
+20130218 202012 InitializeSocket 192.168.0.1:7001
+20130218 202012 IP Resolvido: 192.168.0.1
+20130218 202033 !!!connect error!!!
+20130218 230323 ==================================================================
+20130218 230323                            CSTA APP(1.0.0.1)                               
+20130218 230323 ==================================================================
+20130218 230323 Servidor de mensagens iniciado com sucesso!
+20130218 230323 !!!Connect Mysql Sucess!!!
+20130218 230323 Encontrado(s) 4 databases
+20130218 230323        -information_schema
+20130218 230323        -CSTA
+20130218 230323        -asterisk
+20130218 230323        -mysql
+20130218 230323 !!!Incializando threads!!!
+20130218 230323 !!!Rodando CstaMainLoop!!!
+20130218 230323 Iniciando comunicacao por Socket
+20130218 230323 InitializeSocket 192.168.0.1:7001
+20130218 230323 IP Resolvido: 192.168.0.1
+20130218 230344 !!!connect error!!!
+20130218 230354 Iniciando comunicacao por Socket
+20130218 230354 InitializeSocket 192.168.0.1:7001
+20130218 230354 IP Resolvido: 192.168.0.1
+20130218 230614 ==================================================================
+20130218 230614                            CSTA APP(1.0.0.1)                               
+20130218 230614 ==================================================================
+20130218 230614 Servidor de mensagens iniciado com sucesso!
+20130218 230614 !!!Connect Mysql Sucess!!!
+20130218 230614 Encontrado(s) 4 databases
+20130218 230614        -information_schema
+20130218 230614        -CSTA
+20130218 230614        -asterisk
+20130218 230614        -mysql
+20130218 230614 !!!Incializando threads!!!
+20130218 230614 !!!Rodando CstaMainLoop!!!
+20130218 230614 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 230618 Iniciando comunicacao por Socket
+20130218 230618 InitializeSocket 192.168.0.1:7001
+20130218 230618 IP Resolvido: 192.168.0.1
+20130218 230639 !!!connect error!!!
+20130218 230649 Iniciando comunicacao por Socket
+20130218 230649 InitializeSocket 192.168.0.1:7001
+20130218 230649 IP Resolvido: 192.168.0.1
+20130218 230710 !!!connect error!!!
+20130218 231538 ==================================================================
+20130218 231538                            CSTA APP(1.0.0.1)                               
+20130218 231538 ==================================================================
+20130218 231538 Servidor de mensagens iniciado com sucesso!
+20130218 231538 !!!Connect Mysql Sucess!!!
+20130218 231538 Encontrado(s) 4 databases
+20130218 231538        -information_schema
+20130218 231538        -CSTA
+20130218 231538        -asterisk
+20130218 231538        -mysql
+20130218 231538 !!!Incializando threads!!!
+20130218 231538 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 231538 !!!Rodando CstaMainLoop!!!
+20130218 231541 Iniciando comunicacao por Socket
+20130218 231541 InitializeSocket 192.168.0.1:7001
+20130218 231541 IP Resolvido: 192.168.0.1
+20130218 231602 !!!connect error!!!
+20130218 231805 ==================================================================
+20130218 231805                            CSTA APP(1.0.0.1)                               
+20130218 231805 ==================================================================
+20130218 231805 Servidor de mensagens iniciado com sucesso!
+20130218 231805 !!!Connect Mysql Sucess!!!
+20130218 231805 Encontrado(s) 4 databases
+20130218 231805        -information_schema
+20130218 231805        -CSTA
+20130218 231805        -asterisk
+20130218 231805        -mysql
+20130218 231805 !!!Incializando threads!!!
+20130218 231805 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 231805 Frequencia:10
+20130218 231805 !!!Rodando CstaMainLoop!!!
+20130218 231808 Iniciando comunicacao por Socket
+20130218 231808 InitializeSocket 192.168.0.1:7001
+20130218 231808 IP Resolvido: 192.168.0.1
+20130218 231829 !!!connect error!!!
+20130218 231829 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 231843 Iniciando comunicacao por Socket
+20130218 231843 InitializeSocket 192.168.0.1:7001
+20130218 231843 IP Resolvido: 192.168.0.1
+20130218 231904 !!!connect error!!!
+20130218 231904 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 231917 Iniciando comunicacao por Socket
+20130218 231917 InitializeSocket 192.168.0.1:7001
+20130218 231917 IP Resolvido: 192.168.0.1
+20130218 231938 !!!connect error!!!
+20130218 231938 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 231951 Iniciando comunicacao por Socket
+20130218 231951 InitializeSocket 192.168.0.1:7001
+20130218 231951 IP Resolvido: 192.168.0.1
+20130218 232012 !!!connect error!!!
+20130218 232012 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 232026 Iniciando comunicacao por Socket
+20130218 232026 InitializeSocket 192.168.0.1:7001
+20130218 232026 IP Resolvido: 192.168.0.1
+20130218 233812 ==================================================================
+20130218 233812                            CSTA APP(1.0.0.1)                               
+20130218 233812 ==================================================================
+20130218 233812 Servidor de mensagens iniciado com sucesso!
+20130218 233812 !!!Connect Mysql Sucess!!!
+20130218 233812 Encontrado(s) 4 databases
+20130218 233812        -information_schema
+20130218 233812        -CSTA
+20130218 233812        -asterisk
+20130218 233812        -mysql
+20130218 233812 !!!Incializando threads!!!
+20130218 233812 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 233812 Frequencia:10
+20130218 233812 !!!Rodando CstaMainLoop!!!
+20130218 235231 ==================================================================
+20130218 235231                            CSTA APP(1.0.0.1)                               
+20130218 235231 ==================================================================
+20130218 235231 Servidor de mensagens iniciado com sucesso!
+20130218 235231 !!!Connect Mysql Sucess!!!
+20130218 235231 Encontrado(s) 4 databases
+20130218 235231        -information_schema
+20130218 235231        -CSTA
+20130218 235231        -asterisk
+20130218 235231        -mysql
+20130218 235231 !!!Incializando threads!!!
+20130218 235231 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 235231 Frequencia:10
+20130218 235231 !!!Rodando CstaMainLoop!!!
+20130218 235234 Iniciando comunicacao por Socket
+20130218 235234 InitializeSocket 192.168.0.1:7001
+20130218 235234 IP Resolvido: 192.168.0.1
+20130218 235255 !!!connect error!!!
+20130218 235255 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 235308 Iniciando comunicacao por Socket
+20130218 235308 InitializeSocket 192.168.0.1:7001
+20130218 235308 IP Resolvido: 192.168.0.1
+20130218 235540 ==================================================================
+20130218 235540                            CSTA APP(1.0.0.1)                               
+20130218 235540 ==================================================================
+20130218 235540 Servidor de mensagens iniciado com sucesso!
+20130218 235540 !!!Connect Mysql Sucess!!!
+20130218 235540 Encontrado(s) 4 databases
+20130218 235540        -information_schema
+20130218 235540        -CSTA
+20130218 235540        -asterisk
+20130218 235540        -mysql
+20130218 235540 !!!Incializando threads!!!
+20130218 235540 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 235540 Frequencia:10
+20130218 235540 !!!Rodando CstaMainLoop!!!
+20130218 235543 Iniciando comunicacao por Socket
+20130218 235543 InitializeSocket 192.168.0.1:7001
+20130218 235543 IP Resolvido: 192.168.0.1
+20130218 235604 !!!connect error!!!
+20130218 235604 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 235618 Iniciando comunicacao por Socket
+20130218 235618 InitializeSocket 192.168.0.1:7001
+20130218 235618 IP Resolvido: 192.168.0.1
+20130218 235937 ==================================================================
+20130218 235937                            CSTA APP(1.0.0.1)                               
+20130218 235937 ==================================================================
+20130218 235937 Servidor de mensagens iniciado com sucesso!
+20130218 235937 !!!Connect Mysql Sucess!!!
+20130218 235937 Encontrado(s) 4 databases
+20130218 235937        -information_schema
+20130218 235937        -CSTA
+20130218 235937        -asterisk
+20130218 235937        -mysql
+20130218 235937 !!!Incializando threads!!!
+20130218 235937 Enviando alarme para marcelodossantosmariano@gmail.com!!!
+20130218 235937 Frequencia:10
+20130218 235937 !!!Rodando CstaMainLoop!!!
+20130218 235940 Iniciando comunicacao por Socket
+20130218 235940 InitializeSocket 192.168.0.1:7001
+20130218 235940 IP Resolvido: 192.168.0.1

@@ -1,0 +1,16 @@
+20160921 083214 ==================================================================
+20160921 083214                            CSTA APP(1.0.0.1)                               
+20160921 083214 ==================================================================
+20160921 083214 Servidor de mensagens iniciado com sucesso!
+20160921 083214 !!!Connect Mysql Sucess!!!
+20160921 083214 Encontrado(s) 4 databases
+20160921 083214        -information_schema
+20160921 083214        -CSTA
+20160921 083214        -asterisk
+20160921 083214        -mysql
+20160921 083214 !!!Incializando threads!!!
+20160921 083214 !!!Rodando CstaMainLoop!!!
+20160921 083214 Iniciando comunicacao por Socket
+20160921 083214 InitializeSocket 172.17.0.150:33333
+20160921 083214 IP Resolvido: 172.17.0.150
+20160921 083214 !!!connect error!!!

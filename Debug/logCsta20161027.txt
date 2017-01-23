@@ -1,0 +1,820 @@
+20161027 155739 ==================================================================
+20161027 155739                            CSTA APP(1.0.0.4)                               
+20161027 155739 ==================================================================
+20161027 155739 Servidor de mensagens iniciado com sucesso!
+20161027 155739 !!!Connect Mysql Sucess!!!
+20161027 155739 Encontrado(s) 4 databases
+20161027 155739        -information_schema
+20161027 155739        -CSTA
+20161027 155739        -asterisk
+20161027 155739        -mysql
+20161027 155739 !!!Incializando threads!!!
+20161027 155739 Iniciando comunicacao por Socket
+20161027 155739 InitializeSocket 172.17.0.150:33333
+20161027 155739 IP Resolvido: 172.17.0.150
+20161027 155739 !!!Rodando CstaMainLoop!!!
+20161027 155801 ==================================================================
+20161027 155801                            CSTA APP(1.0.0.4)                               
+20161027 155801 ==================================================================
+20161027 155801 Servidor de mensagens iniciado com sucesso!
+20161027 155801 !!!Connect Mysql Sucess!!!
+20161027 155801 Encontrado(s) 4 databases
+20161027 155801        -information_schema
+20161027 155801        -CSTA
+20161027 155801        -asterisk
+20161027 155801        -mysql
+20161027 155801 !!!Incializando threads!!!
+20161027 155801 Iniciando comunicacao por Socket
+20161027 155801 InitializeSocket 172.17.1.73:33333
+20161027 155801 IP Resolvido: 172.17.1.73
+20161027 155801 !!!Conectado!!!
+20161027 155801 Conectado no ip 172.17.1.73 porta: 33333
+20161027 155801 Panasonic
+20161027 155801 Panasonic MakeAutentication
+20161027 155801 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 155801 !!!Rodando CstaMainLoop!!!
+20161027 155802 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 155802 Ativando monitoracao device 2006
+20161027 155802 MonitorStart: 2006
+20161027 155802 Inserindo Result invokeId:1
+20161027 155802 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 155812 Retornando Result invokeId:1
+20161027 155906 ==================================================================
+20161027 155906                            CSTA APP(1.0.0.4)                               
+20161027 155906 ==================================================================
+20161027 155906 Servidor de mensagens iniciado com sucesso!
+20161027 155906 !!!Connect Mysql Sucess!!!
+20161027 155906 Encontrado(s) 4 databases
+20161027 155906        -information_schema
+20161027 155906        -CSTA
+20161027 155906        -asterisk
+20161027 155906        -mysql
+20161027 155906 !!!Incializando threads!!!
+20161027 155906 Iniciando comunicacao por Socket
+20161027 155906 InitializeSocket 172.17.1.73:33333
+20161027 155906 IP Resolvido: 172.17.1.73
+20161027 155906 !!!Rodando CstaMainLoop!!!
+20161027 155906 !!!Conectado!!!
+20161027 155906 Conectado no ip 172.17.1.73 porta: 33333
+20161027 155906 Panasonic
+20161027 155906 Panasonic MakeAutentication
+20161027 155906 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 155906 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 155906 Ativando monitoracao device 2006
+20161027 155906 MonitorStart: 2006
+20161027 155906 Inserindo Result invokeId:1
+20161027 155906 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 155916 Retornando Result invokeId:1
+20161027 155948 ==================================================================
+20161027 155948                            CSTA APP(1.0.0.4)                               
+20161027 155948 ==================================================================
+20161027 155948 Servidor de mensagens iniciado com sucesso!
+20161027 155948 !!!Connect Mysql Sucess!!!
+20161027 155948 Encontrado(s) 4 databases
+20161027 155948        -information_schema
+20161027 155948        -CSTA
+20161027 155948        -asterisk
+20161027 155948        -mysql
+20161027 155948 !!!Incializando threads!!!
+20161027 155948 Iniciando comunicacao por Socket
+20161027 155948 InitializeSocket 172.17.1.73:33333
+20161027 155948 IP Resolvido: 172.17.1.73
+20161027 155948 !!!Rodando CstaMainLoop!!!
+20161027 155948 !!!Conectado!!!
+20161027 155948 Conectado no ip 172.17.1.73 porta: 33333
+20161027 155948 Panasonic
+20161027 155948 Panasonic MakeAutentication
+20161027 155948 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 155948 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 155948 Ativando monitoracao device 2006
+20161027 155948 MonitorStart: 2006
+20161027 155948 Inserindo Result invokeId:1
+20161027 155948 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 155958 Retornando Result invokeId:1
+20161027 160109 ==================================================================
+20161027 160109                            CSTA APP(1.0.0.4)                               
+20161027 160109 ==================================================================
+20161027 160109 Servidor de mensagens iniciado com sucesso!
+20161027 160109 !!!Connect Mysql Sucess!!!
+20161027 160109 Encontrado(s) 4 databases
+20161027 160109        -information_schema
+20161027 160109        -CSTA
+20161027 160109        -asterisk
+20161027 160109        -mysql
+20161027 160109 !!!Incializando threads!!!
+20161027 160109 Iniciando comunicacao por Socket
+20161027 160109 InitializeSocket 172.17.1.73:33333
+20161027 160109 IP Resolvido: 172.17.1.73
+20161027 160109 !!!Rodando CstaMainLoop!!!
+20161027 160109 !!!Conectado!!!
+20161027 160109 Conectado no ip 172.17.1.73 porta: 33333
+20161027 160109 Panasonic
+20161027 160109 Panasonic MakeAutentication
+20161027 160109 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 160109 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 160109 Ativando monitoracao device 2006
+20161027 160109 MonitorStart: 2006
+20161027 160109 Inserindo Result invokeId:1
+20161027 160109 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 160119 Retornando Result invokeId:1
+20161027 160204 ==================================================================
+20161027 160204                            CSTA APP(1.0.0.4)                               
+20161027 160204 ==================================================================
+20161027 160204 Servidor de mensagens iniciado com sucesso!
+20161027 160204 !!!Connect Mysql Sucess!!!
+20161027 160204 Encontrado(s) 4 databases
+20161027 160204        -information_schema
+20161027 160204        -CSTA
+20161027 160204        -asterisk
+20161027 160204        -mysql
+20161027 160204 !!!Incializando threads!!!
+20161027 160204 Iniciando comunicacao por Socket
+20161027 160204 InitializeSocket 172.17.1.73:33333
+20161027 160204 IP Resolvido: 172.17.1.73
+20161027 160204 !!!Rodando CstaMainLoop!!!
+20161027 160204 !!!Conectado!!!
+20161027 160204 Conectado no ip 172.17.1.73 porta: 33333
+20161027 160204 Panasonic
+20161027 160204 Panasonic MakeAutentication
+20161027 160204 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 160204 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 160204 Ativando monitoracao device 2006
+20161027 160204 MonitorStart: 2006
+20161027 160204 Inserindo Result invokeId:1
+20161027 160204 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 160214 Retornando Result invokeId:1
+20161027 160214 testes1
+20161027 160258 ==================================================================
+20161027 160258                            CSTA APP(1.0.0.4)                               
+20161027 160258 ==================================================================
+20161027 160258 Servidor de mensagens iniciado com sucesso!
+20161027 160258 !!!Connect Mysql Sucess!!!
+20161027 160258 Encontrado(s) 4 databases
+20161027 160258        -information_schema
+20161027 160258        -CSTA
+20161027 160258        -asterisk
+20161027 160258        -mysql
+20161027 160258 !!!Incializando threads!!!
+20161027 160258 Iniciando comunicacao por Socket
+20161027 160258 InitializeSocket 172.17.1.73:33333
+20161027 160258 IP Resolvido: 172.17.1.73
+20161027 160258 !!!Rodando CstaMainLoop!!!
+20161027 160258 !!!Conectado!!!
+20161027 160258 Conectado no ip 172.17.1.73 porta: 33333
+20161027 160258 Panasonic
+20161027 160258 Panasonic MakeAutentication
+20161027 160258 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 160258 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 160258 Ativando monitoracao device 2006
+20161027 160258 MonitorStart: 2006
+20161027 160258 Inserindo Result invokeId:1
+20161027 160258 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 160308 Retornando Result invokeId:1
+20161027 160308 testes1
+20161027 160308 testes2
+20161027 161846 ==================================================================
+20161027 161846                            CSTA APP(1.0.0.4)                               
+20161027 161846 ==================================================================
+20161027 161846 Servidor de mensagens iniciado com sucesso!
+20161027 161846 !!!Connect Mysql Sucess!!!
+20161027 161846 Encontrado(s) 4 databases
+20161027 161846        -information_schema
+20161027 161846        -CSTA
+20161027 161846        -asterisk
+20161027 161846        -mysql
+20161027 161846 !!!Incializando threads!!!
+20161027 161846 Iniciando comunicacao por Socket
+20161027 161846 InitializeSocket 172.17.1.73:33333
+20161027 161846 IP Resolvido: 172.17.1.73
+20161027 161846 !!!Rodando CstaMainLoop!!!
+20161027 161846 !!!Conectado!!!
+20161027 161846 Conectado no ip 172.17.1.73 porta: 33333
+20161027 161846 Panasonic
+20161027 161846 Panasonic MakeAutentication
+20161027 161846 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 161846 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 161846 Ativando monitoracao device 2006
+20161027 161846 MonitorStart: 2006
+20161027 161846 Inserindo Result invokeId:1
+20161027 161846 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 161856 Retornando Result invokeId:1
+20161027 161856 testes1 MonitorStart
+20161027 161856 testes2
+20161027 162037 ==================================================================
+20161027 162037                            CSTA APP(1.0.0.4)                               
+20161027 162037 ==================================================================
+20161027 162037 Servidor de mensagens iniciado com sucesso!
+20161027 162037 !!!Connect Mysql Sucess!!!
+20161027 162037 Encontrado(s) 4 databases
+20161027 162037        -information_schema
+20161027 162037        -CSTA
+20161027 162037        -asterisk
+20161027 162037        -mysql
+20161027 162037 !!!Incializando threads!!!
+20161027 162037 Iniciando comunicacao por Socket
+20161027 162037 InitializeSocket 172.17.1.73:33333
+20161027 162037 IP Resolvido: 172.17.1.73
+20161027 162037 !!!Rodando CstaMainLoop!!!
+20161027 162037 !!!Conectado!!!
+20161027 162037 Conectado no ip 172.17.1.73 porta: 33333
+20161027 162037 Panasonic
+20161027 162037 Panasonic MakeAutentication
+20161027 162037 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 162037 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 162037 Ativando monitoracao device 2006
+20161027 162037 MonitorStart: 2006
+20161027 162037 Inserindo Result invokeId:1
+20161027 162037 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162047 Retornando Result invokeId:1
+20161027 162047 testes1 MonitorStart
+20161027 162047 testes2
+20161027 162138 ==================================================================
+20161027 162138                            CSTA APP(1.0.0.4)                               
+20161027 162138 ==================================================================
+20161027 162138 Servidor de mensagens iniciado com sucesso!
+20161027 162138 !!!Connect Mysql Sucess!!!
+20161027 162138 Encontrado(s) 4 databases
+20161027 162138        -information_schema
+20161027 162138        -CSTA
+20161027 162138        -asterisk
+20161027 162138        -mysql
+20161027 162138 !!!Incializando threads!!!
+20161027 162138 Iniciando comunicacao por Socket
+20161027 162138 InitializeSocket 172.17.1.73:33333
+20161027 162138 IP Resolvido: 172.17.1.73
+20161027 162138 !!!Rodando CstaMainLoop!!!
+20161027 162138 !!!Conectado!!!
+20161027 162138 Conectado no ip 172.17.1.73 porta: 33333
+20161027 162138 Panasonic
+20161027 162138 Panasonic MakeAutentication
+20161027 162138 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 162138 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 162138 Ativando monitoracao device 2006
+20161027 162138 MonitorStart: 2006
+20161027 162138 Inserindo Result invokeId:1
+20161027 162138 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162148 Retornando Result invokeId:1
+20161027 162148 ptrData Result: MonitorStart
+20161027 162148 testes2
+20161027 162216 ==================================================================
+20161027 162216                            CSTA APP(1.0.0.4)                               
+20161027 162216 ==================================================================
+20161027 162216 Servidor de mensagens iniciado com sucesso!
+20161027 162216 !!!Connect Mysql Sucess!!!
+20161027 162216 Encontrado(s) 4 databases
+20161027 162216        -information_schema
+20161027 162216        -CSTA
+20161027 162216        -asterisk
+20161027 162216        -mysql
+20161027 162216 !!!Incializando threads!!!
+20161027 162216 Iniciando comunicacao por Socket
+20161027 162216 InitializeSocket 172.17.1.73:33333
+20161027 162216 IP Resolvido: 172.17.1.73
+20161027 162216 !!!Rodando CstaMainLoop!!!
+20161027 162216 !!!Conectado!!!
+20161027 162216 Conectado no ip 172.17.1.73 porta: 33333
+20161027 162216 Panasonic
+20161027 162216 Panasonic MakeAutentication
+20161027 162216 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 162216 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 162216 Ativando monitoracao device 2006
+20161027 162216 MonitorStart: 2006
+20161027 162216 Inserindo Result invokeId:1
+20161027 162216 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162226 Retornando Result invokeId:1
+20161027 162226 ptrData Result NULL: MonitorStart
+20161027 162226 testes2
+20161027 162348 ==================================================================
+20161027 162348                            CSTA APP(1.0.0.4)                               
+20161027 162348 ==================================================================
+20161027 162348 Servidor de mensagens iniciado com sucesso!
+20161027 162348 !!!Connect Mysql Sucess!!!
+20161027 162348 Encontrado(s) 4 databases
+20161027 162348        -information_schema
+20161027 162348        -CSTA
+20161027 162348        -asterisk
+20161027 162348        -mysql
+20161027 162348 !!!Incializando threads!!!
+20161027 162348 Iniciando comunicacao por Socket
+20161027 162348 InitializeSocket 172.17.1.73:33333
+20161027 162348 IP Resolvido: 172.17.1.73
+20161027 162348 !!!Rodando CstaMainLoop!!!
+20161027 162348 !!!Conectado!!!
+20161027 162348 Conectado no ip 172.17.1.73 porta: 33333
+20161027 162348 Panasonic
+20161027 162348 Panasonic MakeAutentication
+20161027 162348 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 162348 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 162348 Ativando monitoracao device 2006
+20161027 162348 MonitorStart: 2006
+20161027 162348 Inserindo Result invokeId:1
+20161027 162348 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162358 Retornando Result invokeId:1
+20161027 162358 ptrData Result NULL: MonitorStart
+20161027 162358 aqui3333
+20161027 162639 ==================================================================
+20161027 162639                            CSTA APP(1.0.0.4)                               
+20161027 162639 ==================================================================
+20161027 162639 Servidor de mensagens iniciado com sucesso!
+20161027 162639 !!!Connect Mysql Sucess!!!
+20161027 162639 Encontrado(s) 4 databases
+20161027 162639        -information_schema
+20161027 162639        -CSTA
+20161027 162639        -asterisk
+20161027 162639        -mysql
+20161027 162639 !!!Incializando threads!!!
+20161027 162639 Iniciando comunicacao por Socket
+20161027 162639 InitializeSocket 172.17.1.73:33333
+20161027 162639 IP Resolvido: 172.17.1.73
+20161027 162639 !!!Rodando CstaMainLoop!!!
+20161027 162639 !!!Conectado!!!
+20161027 162639 Conectado no ip 172.17.1.73 porta: 33333
+20161027 162639 Panasonic
+20161027 162639 Panasonic MakeAutentication
+20161027 162639 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 162639 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 162639 Ativando monitoracao device 2006
+20161027 162639 MonitorStart: 2006
+20161027 162639 Inserindo Result invokeId:1
+20161027 162639 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162649 Retornando Result invokeId:1
+20161027 162649 ptrData Result NULL: MonitorStart
+20161027 162649 Falha ao ativar Monitoração Ramal: 2006
+20161027 162649 Ativando monitoracao device 2005
+20161027 162649 MonitorStart: 2005
+20161027 162649 Inserindo Result invokeId:2
+20161027 162649 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 02 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 35 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 5............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162659 Retornando Result invokeId:2
+20161027 162659 ptrData Result NULL: MonitorStart
+20161027 162659 Falha ao ativar Monitoração Ramal: 2005
+20161027 162659 Socket Recv:
+
+0 Byte(s)
+
+20161027 162659 Csta Desconectado
+20161027 162659 CstaApp perdeu conexao pabx.Reiniciando!!!
+20161027 162659 Iniciando comunicacao por Socket
+20161027 162659 InitializeSocket 172.17.1.73:33333
+20161027 162659 IP Resolvido: 172.17.1.73
+20161027 162659 !!!Conectado!!!
+20161027 162659 Conectado no ip 172.17.1.73 porta: 33333
+20161027 162659 Panasonic
+20161027 162659 Panasonic MakeAutentication
+20161027 162659 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 162659 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 162700 Ativando monitoracao device 2006
+20161027 162700 MonitorStart: 2006
+20161027 162700 Inserindo Result invokeId:3
+20161027 162700 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 03 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162710 Retornando Result invokeId:3
+20161027 162710 ptrData Result NULL: MonitorStart
+20161027 162710 Falha ao ativar Monitoração Ramal: 2006
+20161027 162710 Ativando monitoracao device 2005
+20161027 162710 MonitorStart: 2005
+20161027 162710 Inserindo Result invokeId:4
+20161027 162710 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 04 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 35 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 5............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162720 Retornando Result invokeId:4
+20161027 162720 ptrData Result NULL: MonitorStart
+20161027 162720 Falha ao ativar Monitoração Ramal: 2005
+20161027 162832 ==================================================================
+20161027 162832                            CSTA APP(1.0.0.4)                               
+20161027 162832 ==================================================================
+20161027 162832 Servidor de mensagens iniciado com sucesso!
+20161027 162832 !!!Connect Mysql Sucess!!!
+20161027 162832 Encontrado(s) 4 databases
+20161027 162832        -information_schema
+20161027 162832        -CSTA
+20161027 162832        -asterisk
+20161027 162832        -mysql
+20161027 162832 !!!Incializando threads!!!
+20161027 162832 Iniciando comunicacao por Socket
+20161027 162832 InitializeSocket 172.17.1.73:33333
+20161027 162832 IP Resolvido: 172.17.1.73
+20161027 162832 !!!Rodando CstaMainLoop!!!
+20161027 162832 !!!Conectado!!!
+20161027 162832 Conectado no ip 172.17.1.73 porta: 33333
+20161027 162832 Panasonic
+20161027 162832 Panasonic MakeAutentication
+20161027 162832 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 162832 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 162832 Ativando monitoracao device 2006
+20161027 162832 MonitorStart: 2006
+20161027 162832 Inserindo Result invokeId:1
+20161027 162832 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162842 Retornando Result invokeId:1
+20161027 162842 ptrData Result NULL: MonitorStart
+20161027 162842 Result NULL na funcao MonitorStart
+20161027 162842 Falha ao ativar Monitoração Ramal: 2006
+20161027 162842 Ativando monitoracao device 2005
+20161027 162842 MonitorStart: 2005
+20161027 162842 Inserindo Result invokeId:2
+20161027 162842 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 02 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 35 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 5............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162852 Retornando Result invokeId:2
+20161027 162852 ptrData Result NULL: MonitorStart
+20161027 162852 Result NULL na funcao MonitorStart
+20161027 162852 Falha ao ativar Monitoração Ramal: 2005
+20161027 162852 Socket Recv:
+
+0 Byte(s)
+
+20161027 162852 Csta Desconectado
+20161027 162852 CstaApp perdeu conexao pabx.Reiniciando!!!
+20161027 162852 Iniciando comunicacao por Socket
+20161027 162852 InitializeSocket 172.17.1.73:33333
+20161027 162852 IP Resolvido: 172.17.1.73
+20161027 162852 !!!Conectado!!!
+20161027 162852 Conectado no ip 172.17.1.73 porta: 33333
+20161027 162852 Panasonic
+20161027 162852 Panasonic MakeAutentication
+20161027 162852 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 162852 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 162852 Ativando monitoracao device 2006
+20161027 162852 MonitorStart: 2006
+20161027 162852 Inserindo Result invokeId:3
+20161027 162852 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 03 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162902 Retornando Result invokeId:3
+20161027 162902 ptrData Result NULL: MonitorStart
+20161027 162902 Result NULL na funcao MonitorStart
+20161027 162902 Falha ao ativar Monitoração Ramal: 2006
+20161027 162902 Ativando monitoracao device 2005
+20161027 162902 MonitorStart: 2005
+20161027 162902 Inserindo Result invokeId:4
+20161027 162902 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 04 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 35 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 5............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 162912 Retornando Result invokeId:4
+20161027 162912 ptrData Result NULL: MonitorStart
+20161027 162912 Result NULL na funcao MonitorStart
+20161027 162912 Falha ao ativar Monitoração Ramal: 2005
+20161027 164021 ==================================================================
+20161027 164021                            CSTA APP(1.0.0.4)                               
+20161027 164021 ==================================================================
+20161027 164021 Servidor de mensagens iniciado com sucesso!
+20161027 164021 !!!Connect Mysql Sucess!!!
+20161027 164021 Encontrado(s) 4 databases
+20161027 164021        -information_schema
+20161027 164021        -CSTA
+20161027 164021        -asterisk
+20161027 164021        -mysql
+20161027 164021 !!!Incializando threads!!!
+20161027 164021 Iniciando comunicacao por Socket
+20161027 164021 InitializeSocket 172.17.1.73:33333
+20161027 164021 IP Resolvido: 172.17.1.73
+20161027 164021 !!!Rodando CstaMainLoop!!!
+20161027 164021 !!!Conectado!!!
+20161027 164021 Conectado no ip 172.17.1.73 porta: 33333
+20161027 164021 Panasonic
+20161027 164021 Panasonic MakeAutentication
+20161027 164021 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 164021 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 164021 Ativando monitoracao device 2006
+20161027 164021 MonitorStart: 2006
+20161027 164021 Inserindo Result invokeId:1
+20161027 164021 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 01 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 164031 Retornando Result invokeId:1
+20161027 164031 ptrData Result NULL: MonitorStart
+20161027 164031 Result NULL na funcao MonitorStart
+20161027 164031 Falha ao ativar Monitoração Ramal: 2006
+20161027 164031 Ativando monitoracao device 2005
+20161027 164031 MonitorStart: 2005
+20161027 164031 Inserindo Result invokeId:2
+20161027 164031 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 02 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 35 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 5............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 164041 Retornando Result invokeId:2
+20161027 164041 ptrData Result NULL: MonitorStart
+20161027 164041 Result NULL na funcao MonitorStart
+20161027 164041 Falha ao ativar Monitoração Ramal: 2005
+20161027 164041 Socket Recv:
+
+0 Byte(s)
+
+20161027 164041 Csta Desconectado
+20161027 164041 CstaApp perdeu conexao pabx.Reiniciando!!!
+20161027 164041 Iniciando comunicacao por Socket
+20161027 164041 InitializeSocket 172.17.1.73:33333
+20161027 164041 IP Resolvido: 172.17.1.73
+20161027 164041 !!!Conectado!!!
+20161027 164041 Conectado no ip 172.17.1.73 porta: 33333
+20161027 164041 Panasonic
+20161027 164041 Panasonic MakeAutentication
+20161027 164041 SocketSend[39] por MakeAutentication: 
+00 25 60 23 80 02 07 80    A1 07 06 05 2B 0C 00 81 ................
+5A BE 14 28 12 06 07 2B    0C 00 82 1D 81 48 A0 07  Z............ H..
+A0 05 03 03 00 08 00 .......
+39 Byte(s)
+
+20161027 164041 Socket Recv:
+00 1B 61 19 80 02 07 80    A1 07 06 05 2B 0C 00 81 .. a.............
+5A A2 03 02 01 01 A3 05    A1 03 02 01 01  Z............
+29 Byte(s)
+
+20161027 164041 Ativando monitoracao device 2006
+20161027 164041 MonitorStart: 2006
+20161027 164041 Inserindo Result invokeId:3
+20161027 164041 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 03 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 36 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 6............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 164051 Retornando Result invokeId:3
+20161027 164051 ptrData Result NULL: MonitorStart
+20161027 164051 Result NULL na funcao MonitorStart
+20161027 164051 Falha ao ativar Monitoração Ramal: 2006
+20161027 164051 Ativando monitoracao device 2005
+20161027 164051 MonitorStart: 2005
+20161027 164051 Inserindo Result invokeId:4
+20161027 164051 SocketSend[58] por MonitorStart: 
+00 38 A1 36 02 01 04 02    01 47 30 2E 30 06 80 04 . 8. 6..... G 0. 0...
+32 30 30 35 A0 24 80 04    06 00 00 00 86 02 01 00  2 0 0 5............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20161027 164101 Retornando Result invokeId:4
+20161027 164101 ptrData Result NULL: MonitorStart
+20161027 164101 Result NULL na funcao MonitorStart
+20161027 164101 Falha ao ativar Monitoração Ramal: 2005
+20161027 164549 ==================================================================
+20161027 164549                            CSTA APP(1.0.0.4)                               
+20161027 164549 ==================================================================
+20161027 164549 Servidor de mensagens iniciado com sucesso!
+20161027 164549 !!!Connect Mysql Sucess!!!
+20161027 164549 Encontrado(s) 4 databases
+20161027 164549        -information_schema
+20161027 164549        -CSTA
+20161027 164549        -asterisk
+20161027 164549        -mysql
+20161027 164549 !!!Incializando threads!!!
+20161027 164549 Iniciando comunicacao por Socket
+20161027 164549 InitializeSocket 172.17.1.73:33333
+20161027 164549 IP Resolvido: 172.17.1.73
+20161027 164549 !!!Rodando CstaMainLoop!!!

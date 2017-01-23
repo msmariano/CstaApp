@@ -1,0 +1,848 @@
+20130104 000128 ==================================================================
+20130104 000128                            CSTA APP                               
+20130104 000128 ==================================================================
+20130104 000128 Aguardando conectar ao Mysql...Access denied for user 'root'@'localhost' (using password: NO)
+20130104 000138 Aguardando conectar ao Mysql...Access denied for user 'root'@'localhost' (using password: NO)
+20130104 000235 ==================================================================
+20130104 000235                            CSTA APP                               
+20130104 000235 ==================================================================
+20130104 000235 Aguardando conectar ao Mysql...Access denied for user 'root'@'localhost' (using password: NO)
+20130104 000415 ==================================================================
+20130104 000415                            CSTA APP                               
+20130104 000415 ==================================================================
+20130104 000415 Servidor de mensagens iniciado com sucesso!
+20130104 000415 !!!Connect Mysql Sucess!!!
+20130104 000415 Encontrado(s) 6 databases
+20130104 000415        -information_schema
+20130104 000415        -CSTA
+20130104 000415        -mysql
+20130104 000415        -performance_schema
+20130104 000415        -phpmyadmin
+20130104 000415        -test
+20130104 000416 !!!Incializando threads!!!
+20130104 000416 !!!Rodando CstaMainLoop!!!
+20130104 000416 Iniciando comunicacao por Socket
+20130104 000416 InitializeSocket 192.168.0.1:7001
+20130104 000416 IP Resolvido: 192.168.0.1
+20130104 000416 !!!Conectado!!!
+20130104 000416 Conectado no ip 192.168.0.1 porta: 7001
+20130104 000416 Aguardando autenticacao...
+20130104 000416 SocketSend[54] por MakeAutentication: 
+26 80 33 60 31 A1 07 06    05 2B 0C 00 81 5A 8A 02 .. 3. 1........ Z..
+06 80 AC 15 A2 13 A0 11    A0 0F 04 06 41 4D 48 4F ............ A M H O
+53 54 04 05 37 37 37 37    37 BE 0B 28 09 A0 07 A0  S T.. 7 7 7 7 7.......
+05 03 03 00 16 00 ......
+54 Byte(s)
+
+20130104 000416 !!!Aguardando Resposta!!!
+20130104 000416 Socket Recv:
+26 80 4A 61 48 A1 07 06    05 2B 0C 00 81 5A A2 03 .. J a H........ Z..
+02 01 00 A3 05 A1 03 02    01 00 88 02 06 80 AA 21 ................
+A2 1F A0 1D A1 1B 04 10    48 45 36 39 32 53 2E 30 ........ H E 6 9 2 S. 0
+30 2E 30 32 37 3A 36 30    04 07 30 32 37 2E 30 30  0. 0 2 7. 6 0.. 0 2 7. 0 0
+30 BE 0A 28 08 A0 06 A0    04 03 02 04 10  0............
+77 Byte(s)
+
+20130104 000416 Socket Recv:
+26 80 0E A1 0C 02 01 01    02 02 00 D3 30 03 0A 01 ............ 0...
+02 .
+17 Byte(s)
+
+20130104 000416 SocketSend[16] por SystemStatus: 
+26 80 0D A2 0B 02 01 01    30 06 02 02 00 D3 05 00 
+16 Byte(s)
+
+20130104 000416 !!!Pegando Timeout!!!
+20130104 000416 !!!csta sucess!!!
+20130104 000416 !!!Ativando Heart Beat!!!
+20130104 000416 Inserindo Result invokeId:1
+20130104 000416 SocketSend[37] por ActHeartBeat: 
+26 80 22 A1 20 02 01 01    02 01 33 30 18 E1 16 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    0C 1A 04 06 C4 22 04 03 ..... S..........
+00 23 04 1E 00 .....
+37 Byte(s)
+
+20130104 000416 Sincronizacao:ActHeartBeat
+20130104 000416 Socket Recv:
+26 80 2E A2 2C 02 01 01    30 27 02 01 33 7E 22 A1 ........ 0... 3...
+20 E1 1E 06 06 2B 0C 02    88 53 0F 04 14 1A 04 06 ......... S......
+C4 22 04 02 00 B8 06 FF    12 01 00 B9 06 FF 06 21 ................
+39  9
+49 Byte(s)
+
+20130104 000416 !!!Process Result[ActHeartBeat]!!!
+20130104 000417 Retornando Result invokeId:1
+20130104 000417 !!!HeartBeat Acted Success!!!:30
+20130104 000417 Ativando monitoracao device 108
+20130104 000417 MonitorStart: 108
+20130104 000417 Inserindo Result invokeId:2
+20130104 000417 SocketSend[58] por MonitorStart: 
+26 80 37 A1 35 02 01 02    02 01 47 30 2D 30 05 80 .. 7. 5..... G 0. 0..
+03 31 30 38 A0 24 80 04    06 00 00 00 86 02 01 00 . 1 0 8............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20130104 000417 Socket Recv:
+26 80 10 A2 0E 02 01 02    30 09 02 01 47 30 04 55 ........ 0... G 0. U
+02 00 00 ...
+19 Byte(s)
+
+20130104 000417 !!!Process Result[MonitorStart]!!!
+20130104 000418 Retornando Result invokeId:2
+20130104 000418 Monitoração Ativada Ramal: 108 CrossRefId: 0
+20130104 000421 !!!Heart Beat oK diff[4]!!!
+20130104 000426 !!!Heart Beat oK diff[9]!!!
+20130104 000722 ==================================================================
+20130104 000722                            CSTA APP                               
+20130104 000722 ==================================================================
+20130104 000722 Servidor de mensagens iniciado com sucesso!
+20130104 000722 !!!Connect Mysql Sucess!!!
+20130104 000722 Encontrado(s) 6 databases
+20130104 000722        -information_schema
+20130104 000722        -CSTA
+20130104 000722        -mysql
+20130104 000722        -performance_schema
+20130104 000722        -phpmyadmin
+20130104 000722        -test
+20130104 000722 !!!Incializando threads!!!
+20130104 000722 !!!Rodando CstaMainLoop!!!
+20130104 000722 Iniciando comunicacao por Socket
+20130104 000722 InitializeSocket 192.168.0.1:7001
+20130104 000722 IP Resolvido: 192.168.0.1
+20130104 000722 !!!Conectado!!!
+20130104 000722 Conectado no ip 192.168.0.1 porta: 7001
+20130104 000722 Aguardando autenticacao...
+20130104 000722 SocketSend[54] por MakeAutentication: 
+26 80 33 60 31 A1 07 06    05 2B 0C 00 81 5A 8A 02 .. 3. 1........ Z..
+06 80 AC 15 A2 13 A0 11    A0 0F 04 06 41 4D 48 4F ............ A M H O
+53 54 04 05 37 37 37 37    37 BE 0B 28 09 A0 07 A0  S T.. 7 7 7 7 7.......
+05 03 03 00 16 00 ......
+54 Byte(s)
+
+20130104 000722 !!!Aguardando Resposta!!!
+20130104 000722 Socket Recv:
+26 80 4A 61 48 A1 07 06    05 2B 0C 00 81 5A A2 03 .. J a H........ Z..
+02 01 00 A3 05 A1 03 02    01 00 88 02 06 80 AA 21 ................
+A2 1F A0 1D A1 1B 04 10    48 45 36 39 32 53 2E 30 ........ H E 6 9 2 S. 0
+30 2E 30 32 37 3A 36 30    04 07 30 32 37 2E 30 30  0. 0 2 7. 6 0.. 0 2 7. 0 0
+30 BE 0A 28 08 A0 06 A0    04 03 02 04 10  0............
+77 Byte(s)
+
+20130104 000722 Socket Recv:
+26 80 0E A1 0C 02 01 01    02 02 00 D3 30 03 0A 01 ............ 0...
+02 .
+17 Byte(s)
+
+20130104 000722 SocketSend[16] por SystemStatus: 
+26 80 0D A2 0B 02 01 01    30 06 02 02 00 D3 05 00 
+16 Byte(s)
+
+20130104 000722 !!!Pegando Timeout!!!
+20130104 000722 !!!csta sucess!!!
+20130104 000722 !!!Ativando Heart Beat!!!
+20130104 000722 Inserindo Result invokeId:1
+20130104 000722 SocketSend[37] por ActHeartBeat: 
+26 80 22 A1 20 02 01 01    02 01 33 30 18 E1 16 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    0C 1A 04 06 C4 22 04 03 ..... S..........
+00 23 04 1E 00 .....
+37 Byte(s)
+
+20130104 000722 Sincronizacao:ActHeartBeat
+20130104 000723 Socket Recv:
+26 80 2E A2 2C 02 01 01    30 27 02 01 33 7E 22 A1 ........ 0... 3...
+20 E1 1E 06 06 2B 0C 02    88 53 0F 04 14 1A 04 06 ......... S......
+C4 22 04 02 01 B8 06 FF    12 01 00 B9 06 FF 06 25 ................
+04 .
+49 Byte(s)
+
+20130104 000723 !!!Process Result[ActHeartBeat]!!!
+20130104 000723 Retornando Result invokeId:1
+20130104 000723 !!!HeartBeat Acted Success!!!:30
+20130104 000723 Ativando monitoracao device 108
+20130104 000723 MonitorStart: 108
+20130104 000723 Inserindo Result invokeId:2
+20130104 000723 SocketSend[58] por MonitorStart: 
+26 80 37 A1 35 02 01 02    02 01 47 30 2D 30 05 80 .. 7. 5..... G 0. 0..
+03 31 30 38 A0 24 80 04    06 00 00 00 86 02 01 00 . 1 0 8............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20130104 000724 Socket Recv:
+26 80 10 A2 0E 02 01 02    30 09 02 01 47 30 04 55 ........ 0... G 0. U
+02 00 01 ...
+19 Byte(s)
+
+20130104 000724 !!!Process Result[MonitorStart]!!!
+20130104 000724 Retornando Result invokeId:2
+20130104 000724 Monitoração Ativada Ramal: 108 CrossRefId: 1
+20130104 000727 !!!Heart Beat oK diff[4]!!!
+20130104 000804 ==================================================================
+20130104 000804                            CSTA APP                               
+20130104 000804 ==================================================================
+20130104 000804 Servidor de mensagens iniciado com sucesso!
+20130104 000804 !!!Connect Mysql Sucess!!!
+20130104 000804 Encontrado(s) 6 databases
+20130104 000804        -information_schema
+20130104 000804        -CSTA
+20130104 000804        -mysql
+20130104 000804        -performance_schema
+20130104 000804        -phpmyadmin
+20130104 000804        -test
+20130104 000804 !!!Incializando threads!!!
+20130104 000804 !!!Rodando CstaMainLoop!!!
+20130104 000804 Iniciando comunicacao por Socket
+20130104 000804 InitializeSocket 192.168.0.1:7001
+20130104 000804 IP Resolvido: 192.168.0.1
+20130104 000804 !!!Conectado!!!
+20130104 000804 Conectado no ip 192.168.0.1 porta: 7001
+20130104 000804 Aguardando autenticacao...
+20130104 000804 SocketSend[54] por MakeAutentication: 
+26 80 33 60 31 A1 07 06    05 2B 0C 00 81 5A 8A 02 .. 3. 1........ Z..
+06 80 AC 15 A2 13 A0 11    A0 0F 04 06 41 4D 48 4F ............ A M H O
+53 54 04 05 37 37 37 37    37 BE 0B 28 09 A0 07 A0  S T.. 7 7 7 7 7.......
+05 03 03 00 16 00 ......
+54 Byte(s)
+
+20130104 000804 !!!Aguardando Resposta!!!
+20130104 000804 Socket Recv:
+26 80 4A 61 48 A1 07 06    05 2B 0C 00 81 5A A2 03 .. J a H........ Z..
+02 01 00 A3 05 A1 03 02    01 00 88 02 06 80 AA 21 ................
+A2 1F A0 1D A1 1B 04 10    48 45 36 39 32 53 2E 30 ........ H E 6 9 2 S. 0
+30 2E 30 32 37 3A 36 30    04 07 30 32 37 2E 30 30  0. 0 2 7. 6 0.. 0 2 7. 0 0
+30 BE 0A 28 08 A0 06 A0    04 03 02 04 10  0............
+77 Byte(s)
+
+20130104 000804 Socket Recv:
+26 80 0E A1 0C 02 01 01    02 02 00 D3 30 03 0A 01 ............ 0...
+02 .
+17 Byte(s)
+
+20130104 000804 SocketSend[16] por SystemStatus: 
+26 80 0D A2 0B 02 01 01    30 06 02 02 00 D3 05 00 
+16 Byte(s)
+
+20130104 000804 !!!Pegando Timeout!!!
+20130104 000804 !!!csta sucess!!!
+20130104 000804 !!!Ativando Heart Beat!!!
+20130104 000804 Inserindo Result invokeId:1
+20130104 000804 SocketSend[37] por ActHeartBeat: 
+26 80 22 A1 20 02 01 01    02 01 33 30 18 E1 16 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    0C 1A 04 06 C4 22 04 03 ..... S..........
+00 23 04 1E 00 .....
+37 Byte(s)
+
+20130104 000804 Sincronizacao:ActHeartBeat
+20130104 000804 Socket Recv:
+26 80 2E A2 2C 02 01 01    30 27 02 01 33 7E 22 A1 ........ 0... 3...
+20 E1 1E 06 06 2B 0C 02    88 53 0F 04 14 1A 04 06 ......... S......
+C4 22 04 02 00 B8 06 FF    12 01 00 B9 06 FF 06 25 ................
+2D .
+49 Byte(s)
+
+20130104 000804 !!!Process Result[ActHeartBeat]!!!
+20130104 000805 Retornando Result invokeId:1
+20130104 000805 !!!HeartBeat Acted Success!!!:30
+20130104 000805 Ativando monitoracao device 108
+20130104 000805 MonitorStart: 108
+20130104 000805 Inserindo Result invokeId:2
+20130104 000805 SocketSend[58] por MonitorStart: 
+26 80 37 A1 35 02 01 02    02 01 47 30 2D 30 05 80 .. 7. 5..... G 0. 0..
+03 31 30 38 A0 24 80 04    06 00 00 00 86 02 01 00 . 1 0 8............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20130104 000805 Socket Recv:
+26 80 10 A2 0E 02 01 02    30 09 02 01 47 30 04 55 ........ 0... G 0. U
+02 00 00 ...
+19 Byte(s)
+
+20130104 000805 !!!Process Result[MonitorStart]!!!
+20130104 000806 Retornando Result invokeId:2
+20130104 000806 Monitoração Ativada Ramal: 108 CrossRefId: 0
+20130104 000809 !!!Heart Beat oK diff[4]!!!
+20130104 000814 !!!Heart Beat oK diff[9]!!!
+20130104 010407 ==================================================================
+20130104 010407                            CSTA APP                               
+20130104 010407 ==================================================================
+20130104 010407 Servidor de mensagens iniciado com sucesso!
+20130104 010407 !!!Connect Mysql Sucess!!!
+20130104 010407 Encontrado(s) 6 databases
+20130104 010407        -information_schema
+20130104 010407        -CSTA
+20130104 010407        -mysql
+20130104 010407        -performance_schema
+20130104 010407        -phpmyadmin
+20130104 010407        -test
+20130104 010407 !!!Incializando threads!!!
+20130104 010407 !!!Rodando CstaMainLoop!!!
+20130104 010407 Iniciando comunicacao por Socket
+20130104 010407 InitializeSocket 192.168.0.1:7001
+20130104 010407 IP Resolvido: 192.168.0.1
+20130104 010407 !!!Conectado!!!
+20130104 010407 Conectado no ip 192.168.0.1 porta: 7001
+20130104 010407 Aguardando autenticacao...
+20130104 010407 SocketSend[54] por MakeAutentication: 
+26 80 33 60 31 A1 07 06    05 2B 0C 00 81 5A 8A 02 .. 3. 1........ Z..
+06 80 AC 15 A2 13 A0 11    A0 0F 04 06 41 4D 48 4F ............ A M H O
+53 54 04 05 37 37 37 37    37 BE 0B 28 09 A0 07 A0  S T.. 7 7 7 7 7.......
+05 03 03 00 16 00 ......
+54 Byte(s)
+
+20130104 010407 !!!Aguardando Resposta!!!
+20130104 010407 Socket Recv:
+26 80 4A 61 48 A1 07 06    05 2B 0C 00 81 5A A2 03 .. J a H........ Z..
+02 01 00 A3 05 A1 03 02    01 00 88 02 06 80 AA 21 ................
+A2 1F A0 1D A1 1B 04 10    48 45 36 39 32 53 2E 30 ........ H E 6 9 2 S. 0
+30 2E 30 32 37 3A 36 30    04 07 30 32 37 2E 30 30  0. 0 2 7. 6 0.. 0 2 7. 0 0
+30 BE 0A 28 08 A0 06 A0    04 03 02 04 10  0............
+77 Byte(s)
+
+20130104 010407 Socket Recv:
+26 80 0E A1 0C 02 01 01    02 02 00 D3 30 03 0A 01 ............ 0...
+02 .
+17 Byte(s)
+
+20130104 010407 SocketSend[16] por SystemStatus: 
+26 80 0D A2 0B 02 01 01    30 06 02 02 00 D3 05 00 
+16 Byte(s)
+
+20130104 010407 !!!Pegando Timeout!!!
+20130104 010407 !!!csta sucess!!!
+20130104 010407 !!!Ativando Heart Beat!!!
+20130104 010407 Inserindo Result invokeId:1
+20130104 010407 SocketSend[37] por ActHeartBeat: 
+26 80 22 A1 20 02 01 01    02 01 33 30 18 E1 16 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    0C 1A 04 06 C4 22 04 03 ..... S..........
+00 23 04 1E 00 .....
+37 Byte(s)
+
+20130104 010407 Sincronizacao:ActHeartBeat
+20130104 010407 Socket Recv:
+26 80 2E A2 2C 02 01 01    30 27 02 01 33 7E 22 A1 ........ 0... 3...
+20 E1 1E 06 06 2B 0C 02    88 53 0F 04 14 1A 04 06 ......... S......
+C4 22 04 02 01 B8 06 FF    12 01 00 B9 06 FF 07 21 ................
+30  0
+49 Byte(s)
+
+20130104 010407 !!!Process Result[ActHeartBeat]!!!
+20130104 010408 Retornando Result invokeId:1
+20130104 010408 !!!HeartBeat Acted Success!!!:30
+20130104 010408 Ativando monitoracao device 108
+20130104 010408 MonitorStart: 108
+20130104 010408 Inserindo Result invokeId:2
+20130104 010408 SocketSend[58] por MonitorStart: 
+26 80 37 A1 35 02 01 02    02 01 47 30 2D 30 05 80 .. 7. 5..... G 0. 0..
+03 31 30 38 A0 24 80 04    06 00 00 00 86 02 01 00 . 1 0 8............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20130104 010408 Socket Recv:
+26 80 10 A2 0E 02 01 02    30 09 02 01 47 30 04 55 ........ 0... G 0. U
+02 00 00 ...
+19 Byte(s)
+
+20130104 010408 !!!Process Result[MonitorStart]!!!
+20130104 010409 Retornando Result invokeId:2
+20130104 010409 Monitoração Ativada Ramal: 108 CrossRefId: 0
+20130104 010412 !!!Heart Beat oK diff[4]!!!
+20130104 010417 !!!Heart Beat oK diff[9]!!!
+20130104 010422 !!!Heart Beat oK diff[14]!!!
+20130104 010427 !!!Heart Beat oK diff[19]!!!
+20130104 010432 !!!Heart Beat oK diff[24]!!!
+20130104 010437 !!!Heart Beat oK diff[29]!!!
+20130104 010437 Socket Recv:
+26 80 2A A1 28 02 01 1F    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 22 12 .............
+45 Byte(s)
+
+20130104 010442 !!!Heart Beat oK diff[5]!!!
+20130104 010447 !!!Heart Beat oK diff[10]!!!
+20130104 010452 !!!Heart Beat oK diff[15]!!!
+20130104 010457 !!!Heart Beat oK diff[20]!!!
+20130104 010502 !!!Heart Beat oK diff[25]!!!
+20130104 010507 !!!Heart Beat oK diff[30]!!!
+20130104 010507 Socket Recv:
+26 80 2A A1 28 02 01 21    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 22 30 ............ 0
+45 Byte(s)
+
+20130104 010512 !!!Heart Beat oK diff[5]!!!
+20130104 010517 !!!Heart Beat oK diff[10]!!!
+20130104 010522 !!!Heart Beat oK diff[15]!!!
+20130104 010527 !!!Heart Beat oK diff[20]!!!
+20130104 010532 !!!Heart Beat oK diff[25]!!!
+20130104 010537 !!!Heart Beat oK diff[30]!!!
+20130104 010537 Socket Recv:
+26 80 2A A1 28 02 01 24    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 23 12 .............
+45 Byte(s)
+
+20130104 010542 !!!Heart Beat oK diff[5]!!!
+20130104 010547 !!!Heart Beat oK diff[10]!!!
+20130104 010552 !!!Heart Beat oK diff[15]!!!
+20130104 010557 !!!Heart Beat oK diff[20]!!!
+20130104 010602 !!!Heart Beat oK diff[25]!!!
+20130104 010607 !!!Heart Beat oK diff[30]!!!
+20130104 010607 Socket Recv:
+26 80 2A A1 28 02 01 27    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 23 30 ............ 0
+45 Byte(s)
+
+20130104 010612 !!!Heart Beat oK diff[5]!!!
+20130104 010617 !!!Heart Beat oK diff[10]!!!
+20130104 010622 !!!Heart Beat oK diff[15]!!!
+20130104 010627 !!!Heart Beat oK diff[20]!!!
+20130104 010632 !!!Heart Beat oK diff[25]!!!
+20130104 010637 !!!Heart Beat oK diff[30]!!!
+20130104 010637 Socket Recv:
+26 80 2A A1 28 02 01 28    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 24 12 .............
+45 Byte(s)
+
+20130104 010642 !!!Heart Beat oK diff[5]!!!
+20130104 010647 !!!Heart Beat oK diff[10]!!!
+20130104 010652 !!!Heart Beat oK diff[15]!!!
+20130104 010657 !!!Heart Beat oK diff[20]!!!
+20130104 010702 !!!Heart Beat oK diff[25]!!!
+20130104 010707 !!!Heart Beat oK diff[30]!!!
+20130104 010707 Socket Recv:
+26 80 2A A1 28 02 01 29    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 24 30 ............ 0
+45 Byte(s)
+
+20130104 010712 !!!Heart Beat oK diff[5]!!!
+20130104 010717 !!!Heart Beat oK diff[10]!!!
+20130104 010722 !!!Heart Beat oK diff[15]!!!
+20130104 010727 !!!Heart Beat oK diff[20]!!!
+20130104 010732 !!!Heart Beat oK diff[25]!!!
+20130104 010737 !!!Heart Beat oK diff[30]!!!
+20130104 010737 Socket Recv:
+26 80 2A A1 28 02 01 2A    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 25 12 .............
+45 Byte(s)
+
+20130104 010742 !!!Heart Beat oK diff[5]!!!
+20130104 010747 !!!Heart Beat oK diff[10]!!!
+20130104 010752 !!!Heart Beat oK diff[15]!!!
+20130104 010757 !!!Heart Beat oK diff[20]!!!
+20130104 010802 !!!Heart Beat oK diff[25]!!!
+20130104 010807 !!!Heart Beat oK diff[30]!!!
+20130104 010807 Socket Recv:
+26 80 2A A1 28 02 01 2B    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 25 30 ............ 0
+45 Byte(s)
+
+20130104 010812 !!!Heart Beat oK diff[5]!!!
+20130104 010817 !!!Heart Beat oK diff[10]!!!
+20130104 010822 !!!Heart Beat oK diff[15]!!!
+20130104 010827 !!!Heart Beat oK diff[20]!!!
+20130104 010832 !!!Heart Beat oK diff[25]!!!
+20130104 010837 !!!Heart Beat oK diff[30]!!!
+20130104 010837 Socket Recv:
+26 80 2A A1 28 02 01 2C    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 26 12 .............
+45 Byte(s)
+
+20130104 010842 !!!Heart Beat oK diff[5]!!!
+20130104 010847 !!!Heart Beat oK diff[10]!!!
+20130104 010852 !!!Heart Beat oK diff[15]!!!
+20130104 010857 !!!Heart Beat oK diff[20]!!!
+20130104 010902 !!!Heart Beat oK diff[25]!!!
+20130104 010907 !!!Heart Beat oK diff[30]!!!
+20130104 010907 Socket Recv:
+26 80 2A A1 28 02 01 2D    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 26 30 ............ 0
+45 Byte(s)
+
+20130104 010912 !!!Heart Beat oK diff[5]!!!
+20130104 010917 !!!Heart Beat oK diff[10]!!!
+20130104 010922 !!!Heart Beat oK diff[15]!!!
+20130104 010927 !!!Heart Beat oK diff[20]!!!
+20130104 010932 !!!Heart Beat oK diff[25]!!!
+20130104 010937 !!!Heart Beat oK diff[30]!!!
+20130104 010937 Socket Recv:
+26 80 2A A1 28 02 01 2E    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 27 12 .............
+45 Byte(s)
+
+20130104 010942 !!!Heart Beat oK diff[5]!!!
+20130104 010947 !!!Heart Beat oK diff[10]!!!
+20130104 010952 !!!Heart Beat oK diff[15]!!!
+20130104 010957 !!!Heart Beat oK diff[20]!!!
+20130104 011002 !!!Heart Beat oK diff[25]!!!
+20130104 011007 !!!Heart Beat oK diff[30]!!!
+20130104 011007 Socket Recv:
+26 80 2A A1 28 02 01 2F    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 27 30 ............ 0
+45 Byte(s)
+
+20130104 011012 !!!Heart Beat oK diff[5]!!!
+20130104 011017 !!!Heart Beat oK diff[10]!!!
+20130104 011022 !!!Heart Beat oK diff[15]!!!
+20130104 011027 !!!Heart Beat oK diff[20]!!!
+20130104 011032 !!!Heart Beat oK diff[25]!!!
+20130104 011037 !!!Heart Beat oK diff[30]!!!
+20130104 011037 Socket Recv:
+26 80 2A A1 28 02 01 31    02 01 33 30 20 E1 1E 06 ....... 1.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 28 12 .............
+45 Byte(s)
+
+20130104 011042 !!!Heart Beat oK diff[5]!!!
+20130104 011047 !!!Heart Beat oK diff[10]!!!
+20130104 011052 !!!Heart Beat oK diff[15]!!!
+20130104 011057 !!!Heart Beat oK diff[20]!!!
+20130104 011102 !!!Heart Beat oK diff[25]!!!
+20130104 011107 !!!Heart Beat oK diff[30]!!!
+20130104 011107 Socket Recv:
+26 80 2A A1 28 02 01 33    02 01 33 30 20 E1 1E 06 ....... 3.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 28 30 ............ 0
+45 Byte(s)
+
+20130104 011112 !!!Heart Beat oK diff[5]!!!
+20130104 011117 !!!Heart Beat oK diff[10]!!!
+20130104 011122 !!!Heart Beat oK diff[15]!!!
+20130104 011127 !!!Heart Beat oK diff[20]!!!
+20130104 011132 !!!Heart Beat oK diff[25]!!!
+20130104 011137 !!!Heart Beat oK diff[30]!!!
+20130104 011137 Socket Recv:
+26 80 2A A1 28 02 01 34    02 01 33 30 20 E1 1E 06 ....... 4.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 29 12 .............
+45 Byte(s)
+
+20130104 011142 !!!Heart Beat oK diff[5]!!!
+20130104 011147 !!!Heart Beat oK diff[10]!!!
+20130104 011152 !!!Heart Beat oK diff[15]!!!
+20130104 011157 !!!Heart Beat oK diff[20]!!!
+20130104 011202 !!!Heart Beat oK diff[25]!!!
+20130104 011207 !!!Heart Beat oK diff[30]!!!
+20130104 011207 Socket Recv:
+26 80 2A A1 28 02 01 35    02 01 33 30 20 E1 1E 06 ....... 5.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 29 30 ............ 0
+45 Byte(s)
+
+20130104 011212 !!!Heart Beat oK diff[5]!!!
+20130104 011217 !!!Heart Beat oK diff[10]!!!
+20130104 011222 !!!Heart Beat oK diff[15]!!!
+20130104 011227 !!!Heart Beat oK diff[20]!!!
+20130104 011232 !!!Heart Beat oK diff[25]!!!
+20130104 011237 !!!Heart Beat oK diff[30]!!!
+20130104 011237 Socket Recv:
+26 80 2A A1 28 02 01 36    02 01 33 30 20 E1 1E 06 ....... 6.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2A 12 .............
+45 Byte(s)
+
+20130104 011242 !!!Heart Beat oK diff[5]!!!
+20130104 011247 !!!Heart Beat oK diff[10]!!!
+20130104 011252 !!!Heart Beat oK diff[15]!!!
+20130104 011257 !!!Heart Beat oK diff[20]!!!
+20130104 011302 !!!Heart Beat oK diff[25]!!!
+20130104 011307 !!!Heart Beat oK diff[30]!!!
+20130104 011307 Socket Recv:
+26 80 2A A1 28 02 01 37    02 01 33 30 20 E1 1E 06 ....... 7.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2A 30 ............ 0
+45 Byte(s)
+
+20130104 011312 !!!Heart Beat oK diff[5]!!!
+20130104 011317 !!!Heart Beat oK diff[10]!!!
+20130104 011322 !!!Heart Beat oK diff[15]!!!
+20130104 011327 !!!Heart Beat oK diff[20]!!!
+20130104 011332 !!!Heart Beat oK diff[25]!!!
+20130104 011337 !!!Heart Beat oK diff[30]!!!
+20130104 011337 Socket Recv:
+26 80 2A A1 28 02 01 38    02 01 33 30 20 E1 1E 06 ....... 8.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2B 12 .............
+45 Byte(s)
+
+20130104 011342 !!!Heart Beat oK diff[5]!!!
+20130104 011347 !!!Heart Beat oK diff[10]!!!
+20130104 011352 !!!Heart Beat oK diff[15]!!!
+20130104 011357 !!!Heart Beat oK diff[20]!!!
+20130104 011402 !!!Heart Beat oK diff[25]!!!
+20130104 011407 !!!Heart Beat oK diff[30]!!!
+20130104 011407 Socket Recv:
+26 80 2A A1 28 02 01 39    02 01 33 30 20 E1 1E 06 ....... 9.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2B 30 ............ 0
+45 Byte(s)
+
+20130104 011412 !!!Heart Beat oK diff[5]!!!
+20130104 011417 !!!Heart Beat oK diff[10]!!!
+20130104 011422 !!!Heart Beat oK diff[15]!!!
+20130104 011427 !!!Heart Beat oK diff[20]!!!
+20130104 011432 !!!Heart Beat oK diff[25]!!!
+20130104 011437 !!!Heart Beat oK diff[30]!!!
+20130104 011437 Socket Recv:
+26 80 2A A1 28 02 01 3A    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2C 12 .............
+45 Byte(s)
+
+20130104 011442 !!!Heart Beat oK diff[5]!!!
+20130104 011447 !!!Heart Beat oK diff[10]!!!
+20130104 011452 !!!Heart Beat oK diff[15]!!!
+20130104 011457 !!!Heart Beat oK diff[20]!!!
+20130104 011502 !!!Heart Beat oK diff[25]!!!
+20130104 011507 !!!Heart Beat oK diff[30]!!!
+20130104 011507 Socket Recv:
+26 80 2A A1 28 02 01 3B    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2C 30 ............ 0
+45 Byte(s)
+
+20130104 011512 !!!Heart Beat oK diff[5]!!!
+20130104 011517 !!!Heart Beat oK diff[10]!!!
+20130104 011522 !!!Heart Beat oK diff[15]!!!
+20130104 011527 !!!Heart Beat oK diff[20]!!!
+20130104 011532 !!!Heart Beat oK diff[25]!!!
+20130104 011537 !!!Heart Beat oK diff[30]!!!
+20130104 011537 Socket Recv:
+26 80 2A A1 28 02 01 3C    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2D 12 .............
+45 Byte(s)
+
+20130104 011542 !!!Heart Beat oK diff[5]!!!
+20130104 011547 !!!Heart Beat oK diff[10]!!!
+20130104 011552 !!!Heart Beat oK diff[15]!!!
+20130104 011557 !!!Heart Beat oK diff[20]!!!
+20130104 011602 !!!Heart Beat oK diff[25]!!!
+20130104 011607 !!!Heart Beat oK diff[30]!!!
+20130104 011607 Socket Recv:
+26 80 2A A1 28 02 01 3D    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2D 30 ............ 0
+45 Byte(s)
+
+20130104 011612 !!!Heart Beat oK diff[5]!!!
+20130104 011617 !!!Heart Beat oK diff[10]!!!
+20130104 011622 !!!Heart Beat oK diff[15]!!!
+20130104 011627 !!!Heart Beat oK diff[20]!!!
+20130104 011632 !!!Heart Beat oK diff[25]!!!
+20130104 011637 !!!Heart Beat oK diff[30]!!!
+20130104 011637 Socket Recv:
+26 80 2A A1 28 02 01 3E    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2E 12 .............
+45 Byte(s)
+
+20130104 011642 !!!Heart Beat oK diff[5]!!!
+20130104 011647 !!!Heart Beat oK diff[10]!!!
+20130104 011652 !!!Heart Beat oK diff[15]!!!
+20130104 011657 !!!Heart Beat oK diff[20]!!!
+20130104 011702 !!!Heart Beat oK diff[25]!!!
+20130104 011707 !!!Heart Beat oK diff[30]!!!
+20130104 011707 Socket Recv:
+26 80 2A A1 28 02 01 3F    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2E 30 ............ 0
+45 Byte(s)
+
+20130104 011712 !!!Heart Beat oK diff[5]!!!
+20130104 011717 !!!Heart Beat oK diff[10]!!!
+20130104 011722 !!!Heart Beat oK diff[15]!!!
+20130104 011727 !!!Heart Beat oK diff[20]!!!
+20130104 011732 !!!Heart Beat oK diff[25]!!!
+20130104 011737 !!!Heart Beat oK diff[30]!!!
+20130104 011737 Socket Recv:
+26 80 2A A1 28 02 01 40    02 01 33 30 20 E1 1E 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2F 12 .............
+45 Byte(s)
+
+20130104 011742 !!!Heart Beat oK diff[5]!!!
+20130104 011747 !!!Heart Beat oK diff[10]!!!
+20130104 011752 !!!Heart Beat oK diff[15]!!!
+20130104 011757 !!!Heart Beat oK diff[20]!!!
+20130104 011802 !!!Heart Beat oK diff[25]!!!
+20130104 011807 !!!Heart Beat oK diff[30]!!!
+20130104 011807 Socket Recv:
+26 80 2A A1 28 02 01 41    02 01 33 30 20 E1 1E 06 ....... A.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 2F 30 ............ 0
+45 Byte(s)
+
+20130104 011812 !!!Heart Beat oK diff[5]!!!
+20130104 011817 !!!Heart Beat oK diff[10]!!!
+20130104 011822 !!!Heart Beat oK diff[15]!!!
+20130104 011827 !!!Heart Beat oK diff[20]!!!
+20130104 011832 !!!Heart Beat oK diff[25]!!!
+20130104 011837 !!!Heart Beat oK diff[30]!!!
+20130104 011837 Socket Recv:
+26 80 2A A1 28 02 01 42    02 01 33 30 20 E1 1E 06 ....... B.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 30 12 ........... 0.
+45 Byte(s)
+
+20130104 011842 !!!Heart Beat oK diff[5]!!!
+20130104 011847 !!!Heart Beat oK diff[10]!!!
+20130104 011852 !!!Heart Beat oK diff[15]!!!
+20130104 011857 !!!Heart Beat oK diff[20]!!!
+20130104 011902 !!!Heart Beat oK diff[25]!!!
+20130104 011907 !!!Heart Beat oK diff[30]!!!
+20130104 011907 Socket Recv:
+26 80 2A A1 28 02 01 44    02 01 33 30 20 E1 1E 06 ....... D.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 30 30 ........... 0 0
+45 Byte(s)
+
+20130104 011912 !!!Heart Beat oK diff[5]!!!
+20130104 011917 !!!Heart Beat oK diff[10]!!!
+20130104 011922 !!!Heart Beat oK diff[15]!!!
+20130104 011927 !!!Heart Beat oK diff[20]!!!
+20130104 011932 !!!Heart Beat oK diff[25]!!!
+20130104 011937 !!!Heart Beat oK diff[30]!!!
+20130104 011937 Socket Recv:
+26 80 2A A1 28 02 01 45    02 01 33 30 20 E1 1E 06 ....... E.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 31 12 ........... 1.
+45 Byte(s)
+
+20130104 011942 !!!Heart Beat oK diff[5]!!!
+20130104 011947 !!!Heart Beat oK diff[10]!!!
+20130104 011952 !!!Heart Beat oK diff[15]!!!
+20130104 011957 !!!Heart Beat oK diff[20]!!!
+20130104 012002 !!!Heart Beat oK diff[25]!!!
+20130104 012007 !!!Heart Beat oK diff[30]!!!
+20130104 012007 Socket Recv:
+26 80 2A A1 28 02 01 46    02 01 33 30 20 E1 1E 06 ....... F.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 31 30 ........... 1 0
+45 Byte(s)
+
+20130104 012012 !!!Heart Beat oK diff[5]!!!
+20130104 012017 !!!Heart Beat oK diff[10]!!!
+20130104 012022 !!!Heart Beat oK diff[15]!!!
+20130104 012027 !!!Heart Beat oK diff[20]!!!
+20130104 012032 !!!Heart Beat oK diff[25]!!!
+20130104 012037 !!!Heart Beat oK diff[30]!!!
+20130104 012037 Socket Recv:
+26 80 2A A1 28 02 01 47    02 01 33 30 20 E1 1E 06 ....... G.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 32 12 ........... 2.
+45 Byte(s)
+
+20130104 012042 !!!Heart Beat oK diff[5]!!!
+20130104 012047 !!!Heart Beat oK diff[10]!!!
+20130104 012052 !!!Heart Beat oK diff[15]!!!
+20130104 012057 !!!Heart Beat oK diff[20]!!!
+20130104 012102 !!!Heart Beat oK diff[25]!!!
+20130104 012104 ==================================================================
+20130104 012104                            CSTA APP                               
+20130104 012104 ==================================================================
+20130104 012104 Servidor de mensagens iniciado com sucesso!
+20130104 012104 !!!Connect Mysql Sucess!!!
+20130104 012104 Encontrado(s) 6 databases
+20130104 012104        -information_schema
+20130104 012104        -CSTA
+20130104 012104        -mysql
+20130104 012104        -performance_schema
+20130104 012104        -phpmyadmin
+20130104 012104        -test
+20130104 012104 !!!Incializando threads!!!
+20130104 012104 !!!Rodando CstaMainLoop!!!
+20130104 012104 Iniciando comunicacao por Socket
+20130104 012104 InitializeSocket 192.168.0.1:7001
+20130104 012104 IP Resolvido: 192.168.0.1
+20130104 012104 !!!Conectado!!!
+20130104 012104 Conectado no ip 192.168.0.1 porta: 7001
+20130104 012104 Aguardando autenticacao...
+20130104 012104 SocketSend[54] por MakeAutentication: 
+26 80 33 60 31 A1 07 06    05 2B 0C 00 81 5A 8A 02 .. 3. 1........ Z..
+06 80 AC 15 A2 13 A0 11    A0 0F 04 06 41 4D 48 4F ............ A M H O
+53 54 04 05 37 37 37 37    37 BE 0B 28 09 A0 07 A0  S T.. 7 7 7 7 7.......
+05 03 03 00 16 00 ......
+54 Byte(s)
+
+20130104 012104 !!!Aguardando Resposta!!!
+20130104 012104 Socket Recv:
+26 80 4A 61 48 A1 07 06    05 2B 0C 00 81 5A A2 03 .. J a H........ Z..
+02 01 00 A3 05 A1 03 02    01 00 88 02 06 80 AA 21 ................
+A2 1F A0 1D A1 1B 04 10    48 45 36 39 32 53 2E 30 ........ H E 6 9 2 S. 0
+30 2E 30 32 37 3A 36 30    04 07 30 32 37 2E 30 30  0. 0 2 7. 6 0.. 0 2 7. 0 0
+30 BE 0A 28 08 A0 06 A0    04 03 02 04 10  0............
+77 Byte(s)
+
+20130104 012104 Socket Recv:
+26 80 0E A1 0C 02 01 01    02 02 00 D3 30 03 0A 01 ............ 0...
+02 .
+17 Byte(s)
+
+20130104 012104 SocketSend[16] por SystemStatus: 
+26 80 0D A2 0B 02 01 01    30 06 02 02 00 D3 05 00 
+16 Byte(s)
+
+20130104 012104 !!!Pegando Timeout!!!
+20130104 012104 !!!csta sucess!!!
+20130104 012104 !!!Ativando Heart Beat!!!
+20130104 012104 Inserindo Result invokeId:1
+20130104 012104 SocketSend[37] por ActHeartBeat: 
+26 80 22 A1 20 02 01 01    02 01 33 30 18 E1 16 06 .......... 3 0....
+06 2B 0C 02 88 53 0F 04    0C 1A 04 06 C4 22 04 03 ..... S..........
+00 23 04 1E 00 .....
+37 Byte(s)
+
+20130104 012104 Sincronizacao:ActHeartBeat
+20130104 012104 Socket Recv:
+26 80 2E A2 2C 02 01 01    30 27 02 01 33 7E 22 A1 ........ 0... 3...
+20 E1 1E 06 06 2B 0C 02    88 53 0F 04 14 1A 04 06 ......... S......
+C4 22 04 02 00 B8 06 FF    12 01 00 B9 06 FF 07 32 ............... 2
+2D .
+49 Byte(s)
+
+20130104 012104 !!!Process Result[ActHeartBeat]!!!
+20130104 012105 Retornando Result invokeId:1
+20130104 012105 !!!HeartBeat Acted Success!!!:30
+20130104 012105 Ativando monitoracao device 108
+20130104 012105 MonitorStart: 108
+20130104 012105 Inserindo Result invokeId:2
+20130104 012105 SocketSend[58] por MonitorStart: 
+26 80 37 A1 35 02 01 02    02 01 47 30 2D 30 05 80 .. 7. 5..... G 0. 0..
+03 31 30 38 A0 24 80 04    06 00 00 00 86 02 01 00 . 1 0 8............
+87 02 01 00 88 03 01 00    00 89 03 02 00 00 83 02 ................
+01 00 85 02 01 00 84 02    01 00 ..........
+58 Byte(s)
+
+20130104 012105 Socket Recv:
+26 80 10 A2 0E 02 01 02    30 09 02 01 47 30 04 55 ........ 0... G 0. U
+02 00 01 ...
+19 Byte(s)
+
+20130104 012105 !!!Process Result[MonitorStart]!!!
+20130104 012106 Retornando Result invokeId:2
+20130104 012106 Monitoração Ativada Ramal: 108 CrossRefId: 1
+20130104 012107 !!!Heart Beat oK diff[30]!!!
+20130104 012107 Socket Recv:
+26 80 2A A1 28 02 01 48    02 01 33 30 20 E1 1E 06 ....... H.. 3 0....
+06 2B 0C 02 88 53 0F 04    14 1A 04 06 C4 22 04 02 ..... S..........
+01 B8 06 FF 12 01 00 B9    06 FF 07 32 30 ........... 2 0
+45 Byte(s)
+
+20130104 012109 !!!Heart Beat oK diff[4]!!!
+20130104 012112 !!!Heart Beat oK diff[5]!!!
+20130104 012114 !!!Heart Beat oK diff[9]!!!
+20130104 012117 !!!Heart Beat oK diff[10]!!!
+20130104 012119 !!!Heart Beat oK diff[14]!!!
+20130104 012124 !!!Heart Beat oK diff[19]!!!
