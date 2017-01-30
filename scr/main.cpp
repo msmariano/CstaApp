@@ -93,6 +93,8 @@ public:
 	CAsn()
 	{
 		next = NULL;
+		prior = NULL;
+		data = NULL;
 
 
 	}
@@ -102,16 +104,124 @@ public:
 		{
 			delete next;
 		}
+		if(data != NULL)
+		{
+			delete data;
+		}
 
 	}
+	void  AllocData()
+	{
+		data = new CAsn();
+		next->prior = this;
 
+	}
+	CAsn * AllocNext()
+	{
+		next = new CAsn();
+		next->prior = this;
+		return next;
+	}
 
-private:
-		CAsn * next;
+public:
+	CAsn * next;
+	CAsn * prior;
+	CAsn * data;
+	int type;
+	int size;
+	string info;
 
 
 
 };
+
+#define srcAsnData  0xa6
+string decodeDelivered(vector <unsigned char> vPayload,unsigned char filtro)
+{
+  string sRet;
+  CAsn * teste = new CAsn();
+  CAsn * Aux = NULL;
+
+  Aux = teste;
+  for (int i = 0 ; i < vPayload.size();)
+  {
+  		unsigned char valor = vPayload[i];
+  		unsigned char size  = vPayload[i+1];
+
+
+  		if( (vPayload[i] <= 137 && vPayload[i] >= 128) || vPayload[i] == 2 ||  vPayload[i] == 85  ||  vPayload[i] == 0x4E
+  				||  vPayload[i] == 0x0A )
+  		{
+  			if(size == 0x81)
+  				i++;
+
+
+
+
+
+
+
+  			if((valor >= 0x80 && valor <= 0x89))
+  			{
+  				Aux->prior->AllocData();
+  				Aux->prior->data->type = valor;
+  				Aux->prior->data->size = size;
+
+
+  				for (int k =0; k < size;k++)
+  				{
+  					//cout <<  (char)vPayload[i+2+k];
+  					Aux->prior->data->info += (char)vPayload[i+2+k];
+  				}
+  					//cout << endl;
+  				if (valor == 0x86)
+  				{
+  					Aux->info = "86";
+  				}
+  			}
+
+
+  			i = i + 2 + vPayload[i+1];
+  		}
+  		else
+  		{
+  			printf("Estrutura: %x %x\n", valor,size);
+  			//cout << "type: " << valor << endl;
+  			//cout << "size: " << size << endl;
+  			if(size == 0x81)
+  			{
+  				i++;
+  			}
+  			i+=2;
+  			Aux->size = size;
+  			Aux->type = valor;
+  			Aux->AllocNext();
+  			Aux = Aux->next;
+  		}
+
+  	}
+
+  	Aux = teste;
+  	while(Aux != NULL)
+  	{
+  		if (Aux->type == 0xa6)
+  		{
+  			if (Aux->next->next->data != NULL && Aux->next->type == filtro)
+  				cout << Aux->next->next->data->info << endl ;
+  		}
+  		 Aux = Aux->next ;
+  	}
+
+
+
+
+  	//teste->parser();
+
+  	delete teste;
+
+
+  return sRet;
+}
 
 int main (int argc , char * argv[])
 {
@@ -163,7 +273,6 @@ int main (int argc , char * argv[])
 
 	}
 
-	//CAsn * teste = new CAsn();
 
 
 	vector <unsigned char> vPayload;
@@ -174,57 +283,7 @@ int main (int argc , char * argv[])
 		//teste->push(teste->StrHexToInt((char*)sp[i].c_str()));
 	}
 
-	for (int i = 0 ; i < vPayload.size();)
-	{
-		unsigned char valor = vPayload[i];
-		unsigned char size  = vPayload[i+1];
-		if( (vPayload[i] <= 137 && vPayload[i] >= 128) || vPayload[i] == 2 ||  vPayload[i] == 85)
-		{
 
-			/*string s;
-			for(int j=0;j< vPayload[i+1];j++)
-			{
-				s+= vPayload[j+i+2];
-				valor = vPayload[j+i+2];
-				if ((vPayload[i] <= 137 && vPayload[i] >= 128) )
-				{
-					s = "";
-					s+=(char)vPayload[j+i+2];
-					//cout << s ;
-				}
-				//else
-					//cout << valor;
-
-			}
-			//cout << endl;*/
-			//printf("Dado: %x %x\n", valor,size);
-
-			if((valor >= 0x80 && valor <= 0x89))
-			{
-				for (int k =0; k < size;k++)
-				{
-					cout <<  (char)vPayload[i+2+k];
-				}
-					cout << endl;
-			}
-
-			i = i + 2 + vPayload[i+1];
-		}
-		else
-		{
-			//printf("Estrutura: %x %x\n", valor,size);
-			//cout << "type: " << valor << endl;
-			//cout << "size: " << size << endl;
-
-			i+=2;
-		}
-
-	}
-
-
-    //teste->parser();
-
-	//delete teste;
 
 	cout << "Teste ASN" << endl;
 	return 0;
