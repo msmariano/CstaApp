@@ -86,20 +86,73 @@ private:
 	vector<string> fields;
 };
 
+class CAsn
+{
+
+public:
+	CAsn()
+	{
+		next = NULL;
+
+
+	}
+	~CAsn()
+	{
+		if(next != NULL)
+		{
+			delete next;
+		}
+
+	}
+
+
+private:
+		CAsn * next;
+
+
+
+};
+
 int main (int argc , char * argv[])
 {
 	const int MAX=1024;
 	string buff;
 	CSplit sp;
 	/*
-	A1 78 02 01 02 02 01 15 30 70 55 04 01 11 00 23
-	A0 68 A4 66 6B 12 30 10 80 04 30 30 46 34 A1 08
-	30 06 80 04 37 30 34 39 63 08 30 06 80 04 37 30
-	34 39 61 08 30 06 81 04 01 55 00 00 62 08 30 06
-	80 04 37 30 34 39 64 02 88 00 4E 01 02 0A 01 16
-	7E 28 A1 26 A6 11 A6 0F 30 0D 86 0B 4E 34 31 33
-	36 36 31 37 30 32 34 A6 11 B1 0F 30 0D 86 0B 4E
-	3C 37 30 34 39 3E 37 30 34 39 00 00	*/
+	A1 78
+		02 01 02
+		02 01 15
+		30 70
+		55 04 01 11 00 23
+		A0 68
+		   A4 66
+		   6B 12
+		   	  30 10
+		   	  80 04 30 30 46 34
+		   	  A1 08
+		   	  	  30 06
+		   	  	  	  80 04 37 30 34 39
+		   	  	  	  63 08
+		   	  	  	  	  30 06
+		   	  	  	  	  	  80 04 37 30	34 39
+		   	  	  	  61 08
+		   	  	  	  	  30 06
+		   	  	  	  	  	  81 04 01 55 00 00
+		   	  	  	 62 08 30 06
+		   	  	  	 	 	  80 04 37 30 34 39
+		   	  	  	 64 02 88 00
+
+		   	  	  	 4E 01 02
+		   	  	  	 0A 01 16
+					7E 28
+					A1 26
+					A6 11
+					A6 0F
+					30 0D
+						86 0B 4E 34 31 33 36 36 31 37 30 32 34
+					A6 11
+					B1 0F 30 0D
+					    86 0B 4E 3C 37 30 34 39 3E 37 30 34 39 	*/
 	//if(argc == 2 && string(argv[1]) == "-hex")
 	{
 		ifstream fin(string("/home/msmariano/CstaApp/TesteASN/Debug/hex.txt").c_str());
@@ -110,19 +163,68 @@ int main (int argc , char * argv[])
 
 	}
 
+	//CAsn * teste = new CAsn();
+
+
+	vector <unsigned char> vPayload;
 	sp.Exec(buff," ");
 	for (int i = 0 ; i < sp.GetSize();i++)
 	{
-		int valor;
-		valor = StrHexToInt((char*)sp[i].c_str());
-		if(valor == 161)
+		vPayload.push_back(StrHexToInt((char*)sp[i].c_str()));
+		//teste->push(teste->StrHexToInt((char*)sp[i].c_str()));
+	}
+
+	for (int i = 0 ; i < vPayload.size();)
+	{
+		unsigned char valor = vPayload[i];
+		unsigned char size  = vPayload[i+1];
+		if( (vPayload[i] <= 137 && vPayload[i] >= 128) || vPayload[i] == 2 ||  vPayload[i] == 85)
 		{
 
+			/*string s;
+			for(int j=0;j< vPayload[i+1];j++)
+			{
+				s+= vPayload[j+i+2];
+				valor = vPayload[j+i+2];
+				if ((vPayload[i] <= 137 && vPayload[i] >= 128) )
+				{
+					s = "";
+					s+=(char)vPayload[j+i+2];
+					//cout << s ;
+				}
+				//else
+					//cout << valor;
+
+			}
+			//cout << endl;*/
+			//printf("Dado: %x %x\n", valor,size);
+
+			if((valor >= 0x80 && valor <= 0x89))
+			{
+				for (int k =0; k < size;k++)
+				{
+					cout <<  (char)vPayload[i+2+k];
+				}
+					cout << endl;
+			}
+
+			i = i + 2 + vPayload[i+1];
 		}
-		cout << valor << endl;
+		else
+		{
+			//printf("Estrutura: %x %x\n", valor,size);
+			//cout << "type: " << valor << endl;
+			//cout << "size: " << size << endl;
+
+			i+=2;
+		}
 
 	}
 
+
+    //teste->parser();
+
+	//delete teste;
 
 	cout << "Teste ASN" << endl;
 	return 0;
@@ -137,5 +239,7 @@ int StrHexToInt(char * byte)
 	ss >> x;
     return (int)x;
 }
+
+
 
 
