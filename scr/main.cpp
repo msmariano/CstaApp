@@ -139,11 +139,10 @@ public:
 string decodeDelivered(vector <unsigned char> vPayload,unsigned char filtro)
 {
   string sRet;
-  CAsn * teste = new CAsn();
+  CAsn * CSTA = new CAsn();
   CAsn * Aux = NULL;
-
-  Aux = teste;
-  for (int i = 0 ; i < vPayload.size();)
+  Aux = CSTA;
+  for (int i = 0 ; i < (int)vPayload.size();)
   {
   		unsigned char valor = vPayload[i];
   		unsigned char size  = vPayload[i+1];
@@ -155,71 +154,42 @@ string decodeDelivered(vector <unsigned char> vPayload,unsigned char filtro)
   			if(size == 0x81)
   				i++;
 
-
-
-
-
-
-
   			if((valor >= 0x80 && valor <= 0x89))
   			{
   				Aux->prior->AllocData();
   				Aux->prior->data->type = valor;
   				Aux->prior->data->size = size;
-
-
   				for (int k =0; k < size;k++)
   				{
-  					//cout <<  (char)vPayload[i+2+k];
   					Aux->prior->data->info += (char)vPayload[i+2+k];
   				}
-  					//cout << endl;
-  				if (valor == 0x86)
-  				{
-  					Aux->info = "86";
-  				}
   			}
-
-
   			i = i + 2 + vPayload[i+1];
   		}
   		else
   		{
-  			printf("Estrutura: %x %x\n", valor,size);
-  			//cout << "type: " << valor << endl;
-  			//cout << "size: " << size << endl;
+  			//printf("Estrutura: %x %x\n", valor,size);
   			if(size == 0x81)
-  			{
   				i++;
-  			}
   			i+=2;
   			Aux->size = size;
   			Aux->type = valor;
   			Aux->AllocNext();
   			Aux = Aux->next;
   		}
-
   	}
 
-  	Aux = teste;
+  	Aux = CSTA;
   	while(Aux != NULL)
   	{
   		if (Aux->type == 0xa6)
   		{
   			if (Aux->next->next->data != NULL && Aux->next->type == filtro)
-  				cout << Aux->next->next->data->info << endl ;
+  				sRet =  Aux->next->next->data->info  ;
   		}
   		 Aux = Aux->next ;
   	}
-
-
-
-
-  	//teste->parser();
-
-  	delete teste;
-
-
+  	delete CSTA;
   return sRet;
 }
 
@@ -283,7 +253,7 @@ int main (int argc , char * argv[])
 		//teste->push(teste->StrHexToInt((char*)sp[i].c_str()));
 	}
 
-
+	cout << decodeDelivered(vPayload,srcAsnData) << endl;
 
 	cout << "Teste ASN" << endl;
 	return 0;
