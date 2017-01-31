@@ -6,12 +6,14 @@
 // Description : Codificação e Decodificação Mensagens CSTA
 //               11-12-2013 - Criação
 //               18-02-2013 - Colocado shutdown para fechamento socket
-//               23-01-2016 - Acrescentado projeto para o GITHUB
+//               23-01-2017 - Acrescentado projeto para o GITHUB
+//               23-01-2017 - Testando GITHUB
 //============================================================================
 
 
 #include "../include/CCSTA.h"
 #include <sstream>
+#include <unistd.h>
 
 
 
@@ -1792,6 +1794,63 @@ void CCSTA::TransferredEvent(CAsnNode * node, TTransferred * Transferred)
 }
 
 
+#define srcAsnData  0xa6
+string  CCSTA::decodeDelivered(vector <unsigned char> vPayload,unsigned char filtro)
+{
+  string sRet;
+  CAsn * CSTA = new CAsn();
+  CAsn * Aux = NULL;
+  Aux = CSTA;
+  for (int i = 0 ; i < (int)vPayload.size();)
+  {
+  		unsigned char valor = vPayload[i];
+  		unsigned char size  = vPayload[i+1];
+
+
+  		if( (vPayload[i] <= 137 && vPayload[i] >= 128) || vPayload[i] == 2 ||  vPayload[i] == 85  ||  vPayload[i] == 0x4E
+  				||  vPayload[i] == 0x0A )
+  		{
+  			if(size == 0x81)
+  				i++;
+
+  			if((valor >= 0x80 && valor <= 0x89))
+  			{
+  				Aux->prior->AllocData();
+  				Aux->prior->data->type = valor;
+  				Aux->prior->data->size = size;
+  				for (int k =0; k < size;k++)
+  				{
+  					Aux->prior->data->info += (char)vPayload[i+2+k];
+  				}
+  			}
+  			i = i + 2 + vPayload[i+1];
+  		}
+  		else
+  		{
+  			//printf("Estrutura: %x %x\n", valor,size);
+  			if(size == 0x81)
+  				i++;
+  			i+=2;
+  			Aux->size = size;
+  			Aux->type = valor;
+  			Aux->AllocNext();
+  			Aux = Aux->next;
+  		}
+  	}
+
+  	Aux = CSTA;
+  	while(Aux != NULL)
+  	{
+  		if (Aux->type == 0xa6)
+  		{
+  			if (Aux->next->next->data != NULL && Aux->next->type == filtro)
+  				sRet =  Aux->next->next->data->info  ;
+  		}
+  		 Aux = Aux->next ;
+  	}
+  	delete CSTA;
+  return sRet;
+}
 
 void CCSTA::CallControlEvent(CAsnNode * node, int crossRefIdentifier)
 {
@@ -1835,46 +1894,16 @@ void CCSTA::CallControlEvent(CAsnNode * node, int crossRefIdentifier)
 	specificEvent->tamDump = node->tamDump;
 
 
-
-/*
-A1 78 02 01 02 02 01 15    30 70 55 04 01 11 00 23 . x...... 0 p U.....
-A0 68 A4 66 6B 12 30 10    80 04 30 30 46 34 A1 08 . h. f k. 0... 0 0 F 4..
-30 06 80 04 37 30 34 39    63 08 30 06 80 04 37 30  0... 7 0 4 9 c. 0... 7 0
-34 39 61 08 30 06 81 04    01 55 00 00 62 08 30 06  4 9 a. 0.... U.. b. 0.
-80 04 37 30 34 39 64 02    88 00 4E 01 02 0A 01 16 .. 7 0 4 9 d... N.....
-7E 28 A1 26 A6 11 A6 0F    30 0D 86 0B 4E 34 31 33 ........ 0... N 4 1 3
-36 36 31 37 30 32 34 A6    11 B1 0F 30 0D 86 0B 4E  6 6 1 7 0 2 4.... 0... N
-3C 37 30 34 39 3E 37 30    34 39 00 00 . 7 0 4 9. 7 0 4 9..
-124 Byte(s)*/
-
-
 	if (node->tamDump > 121 && gVersionInfo == "Panasonic")
 	{
-		char ivrId[100] = "";
-		char ivrId1[100] = "";
-        memcpy(ivrId,  &specificEvent->dump[90], specificEvent->dump[89]  );
-
-
-        for(int i =0,j=0;i<specificEvent->dump[89];i++)
-        {
-        	if (ivrId[i] >= '0' &&  ivrId[i] <= '9' )
-        	{
-        		ivrId1[j++] = ivrId[i];
-        	}
-
-        }
-
-        Event->IvrID = ivrId1;
-
+		vector <unsigned char> vPayload;
+		for (int i = 0 ; i < specificEvent->tamDump;i++)
+			vPayload.push_back(specificEvent->dump[i]);
+		Event->IvrID = decodeDelivered(vPayload,srcAsnData);
 	}
-
-
 
 	Event->CallControlEvText="evDelivered";
 	DeliveredEvent(specificEvent, &Event->Delivered);
-
-
-
 
 	logevento(logObject(Event->Delivered, 0)+"\n\n");
 	eventRecognized = true;

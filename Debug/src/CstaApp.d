@@ -1,8 +1,8 @@
-src/CstaApp.d src/CstaApp.o: ../src/CstaApp.cpp \
- ../src/../include/AsnNode.h ../src/../include/CstaTypes.h \
- ../src/../include/AsnNode.h ../src/../include/CallList.h \
- ../src/../include/CstaTypes.h ../src/../include/CCSTA.h \
- ../src/../include/CallList.h ../src/../include/CMySQL.h \
+src/CstaApp.o: ../src/CstaApp.cpp ../src/../include/AsnNode.h \
+ ../src/../include/CstaTypes.h ../src/../include/AsnNode.h \
+ ../src/../include/CallList.h ../src/../include/CstaTypes.h \
+ ../src/../include/CCSTA.h ../src/../include/CallList.h \
+ ../src/../include/CMySQL.h \
  ../src/../include/../../mysql_c/include/mysql.h \
  ../src/../include/../../mysql_c/include/mysql_version.h \
  ../src/../include/../../mysql_c/include/mysql_com.h \

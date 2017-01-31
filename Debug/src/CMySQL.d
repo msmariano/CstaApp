@@ -1,1 +1,1 @@
-src/CMySQL.d src/CMySQL.o: ../src/CMySQL.cpp
+src/CMySQL.o: ../src/CMySQL.cpp
