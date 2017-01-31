@@ -16,6 +16,7 @@
 #include <netdb.h>
 #define _CCSTA
 
+#define srcAsnData  0xa6
 
 
 using namespace std;
@@ -27,6 +28,57 @@ string IntToStr(int iArg);
 string TimeToStr(time_t t);
 bool TimeMaiorADiffB(int diff,time_t A,time_t B);
 
+
+class CAsn
+{
+
+public:
+	CAsn()
+	{
+		next = NULL;
+		prior = NULL;
+		data = NULL;
+		type = 0;
+		size = 0;
+
+
+	}
+	~CAsn()
+	{
+		if(next != NULL)
+		{
+			delete next;
+		}
+		if(data != NULL)
+		{
+			delete data;
+		}
+
+	}
+	void  AllocData()
+	{
+		data = new CAsn();
+		next->prior = this;
+
+	}
+	CAsn * AllocNext()
+	{
+		next = new CAsn();
+		next->prior = this;
+		return next;
+	}
+
+public:
+	CAsn * next;
+	CAsn * prior;
+	CAsn * data;
+	int type;
+	int size;
+	string info;
+
+
+
+};
 
 class TEventDispatcher
 {
@@ -291,6 +343,8 @@ private:
 	void SendBeatEvent();
 	/*---------CALLBACK---------*/
 	//void CstaReceive(unsigned char *data, unsigned int dataSize);
+	/**/
+	string decodeDelivered(vector <unsigned char> vPayload,unsigned char filtro);
 	TCSTABuffer cstaBuffer;
 	time_t lastBeat;
 	bool beatActed;
